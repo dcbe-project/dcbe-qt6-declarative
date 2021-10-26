@@ -1,0 +1,5 @@
+qt6-declarative (6.2.0+dfsg-1) experimental; urgency=medium
+
+  * Initial release (Closes: #995962).
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 06 Oct 2021 02:53:22 +0200
