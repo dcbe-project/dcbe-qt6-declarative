@@ -629,3 +629,27 @@ Description: Qt 6 declarative development programs
  .
  This package contains the development programs used for building Qt 6
  declarative applications.
+
+Package: qmlscene-qt6
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 QML scene viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the older QML viewer for Qt Quick 2. See the
+ qml-qt6 package for the newer one.
+
+Package: qml-qt6
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 QML viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the new QML viewer for Qt Quick 2, called simply
+ 'qml'.
