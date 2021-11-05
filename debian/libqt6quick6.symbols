@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6Quick.so.6 libqt6quick6 #MINVER#
-| libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.0)
+| libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
  _Z20qt_color_from_stringRKN3QV45ValueE@Base 6.2.0
  _Z23QQuick_initializeModulev@Base 6.2.0

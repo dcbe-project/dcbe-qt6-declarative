@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QmlXmlListModel.so.6 libqt6qmlxmllistmodel6 #MINVER#
-| libqt6qmlxmllistmodel6 #MINVER#, qt6-declarative-abi (= 6.2.0)
+| libqt6qmlxmllistmodel6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
  _Z37qml_register_types_QtQml_XmlListModelv@Base 6.2.0
  _ZN16QQmlXmlListModel10appendRoleEP16QQmlListPropertyI20QQmlXmlListModelRoleEPS1_@Base 6.2.0

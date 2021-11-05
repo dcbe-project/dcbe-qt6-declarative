@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QuickDialogs2Utils.so.6 libqt6quickdialogs2utils6 #MINVER#
-| libqt6quickdialogs2utils6 #MINVER#, qt6-declarative-abi (= 6.2.0)
+| libqt6quickdialogs2utils6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
  _ZN20QQuickFileNameFilter10setOptionsERK14QSharedPointerI18QFileDialogOptionsE@Base 6.2.0
  _ZN20QQuickFileNameFilter11nameChangedERK7QString@Base 6.2.0

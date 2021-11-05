@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6Qml.so.6 libqt6qml6 #MINVER#
-| libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.0)
+| libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
  _Z10qmlContextPK7QObject@Base 6.2.0
  _Z10qmlWarningPK7QObject@Base 6.2.0
