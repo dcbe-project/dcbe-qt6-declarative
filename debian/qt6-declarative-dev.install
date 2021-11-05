@@ -232,6 +232,10 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControls2Impl/QtQuickControls2Impl
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControls2Impl/QtQuickControls2ImplDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControls2Impl/QtQuickControls2ImplVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControls2Impl/qtquickcontrols2implversion.h
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControlsTestUtils/QtQuickControlsTestUtils
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControlsTestUtils/QtQuickControlsTestUtilsDepends
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControlsTestUtils/QtQuickControlsTestUtilsVersion
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickControlsTestUtils/qtquickcontrolstestutilsversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickDialogs2/QtQuickDialogs2
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickDialogs2/QtQuickDialogs2Depends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickDialogs2/QtQuickDialogs2Version
@@ -268,6 +272,10 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTest/QtQuickTestVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTest/qtquicktestversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTest/quicktest.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTest/quicktestglobal.h
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTestUtils/QtQuickTestUtils
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTestUtils/QtQuickTestUtilsDepends
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTestUtils/QtQuickTestUtilsVersion
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickTestUtils/qtquicktestutilsversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickWidgets/QQuickWidget
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickWidgets/QtQuickWidgets
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtQuickWidgets/QtQuickWidgetsDepends
@@ -668,6 +676,13 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplD
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateAdditionalTargetInfo.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfig.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfigVersion.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateDependencies.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateTargets-none.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickDialogs2/Qt6QuickDialogs2AdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickDialogs2/Qt6QuickDialogs2Config.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickDialogs2/Qt6QuickDialogs2ConfigVersion.cmake
@@ -724,6 +739,13 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTest/Qt6QuickTestDependencies.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTest/Qt6QuickTestTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTest/Qt6QuickTestTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTest/Qt6QuickTestVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateAdditionalTargetInfo.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateConfig.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateConfigVersion.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateDependencies.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateTargets-none.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickWidgets/Qt6QuickWidgetsAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake
@@ -771,6 +793,8 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControls2.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControls2.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControls2Impl.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControls2Impl.so
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControlsTestUtils.a
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickControlsTestUtils.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickDialogs2.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickDialogs2.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickDialogs2QuickImpl.prl
@@ -787,6 +811,8 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTemplates2.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTemplates2.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTest.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTest.so
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTestUtils.a
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickTestUtils.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickWidgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6QuickWidgets.so
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6labsanimation_none_metatypes.json
@@ -809,6 +835,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6qmlxmllistmodel_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quick_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickcontrols2_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickcontrols2impl_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickcontrolstestutilsprivate_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickdialogs2_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickdialogs2quickimpl_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickdialogs2utils_none_metatypes.json
@@ -817,6 +844,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickparticlesprivate_none_metatypes.
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickshapesprivate_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quicktemplates2_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quicktest_none_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quicktestutilsprivate_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6quickwidgets_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/qmlcache.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/qmltypes.prf
@@ -864,6 +892,7 @@ usr/share/qt6/modules/QmlXmlListModel.json
 usr/share/qt6/modules/Quick.json
 usr/share/qt6/modules/QuickControls2.json
 usr/share/qt6/modules/QuickControls2Impl.json
+usr/share/qt6/modules/QuickControlsTestUtilsPrivate.json
 usr/share/qt6/modules/QuickDialogs2.json
 usr/share/qt6/modules/QuickDialogs2QuickImpl.json
 usr/share/qt6/modules/QuickDialogs2Utils.json
@@ -872,4 +901,5 @@ usr/share/qt6/modules/QuickParticlesPrivate.json
 usr/share/qt6/modules/QuickShapesPrivate.json
 usr/share/qt6/modules/QuickTemplates2.json
 usr/share/qt6/modules/QuickTest.json
+usr/share/qt6/modules/QuickTestUtilsPrivate.json
 usr/share/qt6/modules/QuickWidgets.json
