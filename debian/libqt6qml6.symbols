@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6Qml.so.6 libqt6qml6 #MINVER#
 | libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
@@ -681,7 +681,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN17QQmlObjectCreator14createInstanceEiP7QObjectb@Base 6.2.0
  _ZN17QQmlObjectCreator14setupFunctionsEv@Base 6.2.0
  _ZN17QQmlObjectCreator16populateDeferredEP7QObjectiPK19QQmlPropertyPrivatePKN3QV412CompiledData7BindingE@Base 6.2.0
- _ZN17QQmlObjectCreator16populateInstanceEiP7QObjectS1_PK16QQmlPropertyData@Base 6.2.0
+ _ZN17QQmlObjectCreator16populateInstanceEiP7QObjectS1_PK16QQmlPropertyDataPKN3QV412CompiledData7BindingE@Base 6.2.1
  _ZN17QQmlObjectCreator16setPropertyValueEPK16QQmlPropertyDataPKN3QV412CompiledData7BindingE@Base 6.2.0
  _ZN17QQmlObjectCreator18setPropertyBindingEPK16QQmlPropertyDataPKN3QV412CompiledData7BindingE@Base 6.2.0
  _ZN17QQmlObjectCreator21beginPopulateDeferredERK14QQmlRefPointerI15QQmlContextDataE@Base 6.2.0
@@ -901,6 +901,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN19QQmlProfilerService5s_keyE@Base 6.2.0
  _ZN19QQmlPropertyBinding20bindingErrorCallbackEP23QPropertyBindingPrivate@Base 6.2.0
  _ZN19QQmlPropertyBinding20createFromCodeStringEPK16QQmlPropertyDataRK7QStringP7QObjectRK14QQmlRefPointerI15QQmlContextDataES5_tS7_17QQmlPropertyIndex@Base 6.2.0
+ _ZN19QQmlPropertyBinding22createFromScriptStringEPK16QQmlPropertyDataRK16QQmlScriptStringP7QObjectP11QQmlContextS7_17QQmlPropertyIndex@Base 6.2.1
  _ZN19QQmlPropertyBinding23createFromBoundFunctionEPK16QQmlPropertyDataPN3QV413BoundFunctionEP7QObjectRK14QQmlRefPointerI15QQmlContextDataEPNS3_16ExecutionContextES7_17QQmlPropertyIndex@Base 6.2.0
  _ZN19QQmlPropertyBinding25handleUndefinedAssignmentEP17QQmlEnginePrivatePv@Base 6.2.0
  _ZN19QQmlPropertyBinding33createBindingLoopErrorDescriptionEP16QJSEnginePrivate@Base 6.2.0
@@ -918,6 +919,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN19QQmlPropertyCapture15capturePropertyEP12QQmlNotifier@Base 6.2.0
  _ZN19QQmlPropertyCapture15capturePropertyEP7QObjectPK17QQmlPropertyCachePK16QQmlPropertyDatab@Base 6.2.0
  _ZN19QQmlPropertyCapture15capturePropertyEP7QObjectiib@Base 6.2.0
+ _ZN19QQmlPropertyCapture18captureTranslationEv@Base 6.2.1
  _ZN19QQmlPropertyCapture23captureBindablePropertyEP7QObjectPK11QMetaObjecti@Base 6.2.0
  _ZN19QQmlPropertyCapture26captureNonBindablePropertyEP7QObjectiib@Base 6.2.0
  _ZN19QQmlPropertyPrivate10setBindingEP19QQmlAbstractBinding6QFlagsINS_11BindingFlagEES2_IN16QQmlPropertyData9WriteFlagEE@Base 6.2.0
@@ -3282,6 +3284,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZNK8QtObject10uiLanguageEv@Base 6.2.0
  _ZNK8QtObject11inputMethodEv@Base 6.2.0
  _ZNK8QtObject11resolvedUrlERK4QUrl@Base 6.2.0
+ _ZNK8QtObject11resolvedUrlERK4QUrlP7QObject@Base 6.2.1
  _ZNK8QtObject12fontFamiliesEv@Base 6.2.0
  _ZNK8QtObject14formatDateTimeERK9QDateTimeN2Qt10DateFormatE@Base 6.2.0
  _ZNK8QtObject14formatDateTimeERK9QDateTimeRK7QLocaleNS3_10FormatTypeE@Base 6.2.0
@@ -3291,6 +3294,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZNK8QtObject15createQmlObjectERK7QStringP7QObjectRK4QUrl@Base 6.2.0
  _ZNK8QtObject17openUrlExternallyERK4QUrl@Base 6.2.0
  _ZNK8QtObject3md5ERK7QString@Base 6.2.0
+ _ZNK8QtObject3urlERK4QUrl@Base 6.2.1
  _ZNK8QtObject4atobERK7QString@Base 6.2.0
  _ZNK8QtObject4btoaERK7QString@Base 6.2.0
  _ZNK8QtObject4exitEi@Base 6.2.0
@@ -3378,6 +3382,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZTI16QQmlDebugService@Base 6.2.0
  _ZTI16QQmlFileSelector@Base 6.2.0
  _ZTI16QQmlParserStatus@Base 6.2.0
+ _ZTI17QPropertyObserver@Base 6.2.1
  _ZTI17QQmlColorProvider@Base 6.2.0
  _ZTI17QQmlEnginePrivate@Base 6.2.0
  _ZTI17QQmlPropertyCache@Base 6.2.0
@@ -3636,6 +3641,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZTS16QQmlDebugService@Base 6.2.0
  _ZTS16QQmlFileSelector@Base 6.2.0
  _ZTS16QQmlParserStatus@Base 6.2.0
+ _ZTS17QPropertyObserver@Base 6.2.1
  _ZTS17QQmlColorProvider@Base 6.2.0
  _ZTS17QQmlEnginePrivate@Base 6.2.0
  _ZTS17QQmlPropertyCache@Base 6.2.0

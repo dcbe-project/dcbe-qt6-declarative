@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
 | libqt6qmlmodels6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
@@ -43,6 +43,7 @@ libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
  _ZN13QQmlListModel16emitItemsChangedEiiRK5QListIiE@Base 6.2.0
  _ZN13QQmlListModel16staticMetaObjectE@Base 6.2.0
  _ZN13QQmlListModel17emitItemsInsertedEv@Base 6.2.0
+ _ZN13QQmlListModel18updateTranslationsEv@Base 6.2.1
  _ZN13QQmlListModel26emitItemsAboutToBeInsertedEii@Base 6.2.0
  _ZN13QQmlListModel3setEiRK8QJSValue@Base 6.2.0
  _ZN13QQmlListModel4moveEiii@Base 6.2.0
@@ -140,6 +141,7 @@ libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
  _ZN17QQmlDelegateModel14_q_rowsRemovedERK11QModelIndexii@Base 6.2.0
  _ZN17QQmlDelegateModel14persistedItemsEv@Base 6.2.0
  _ZN17QQmlDelegateModel14setFilterGroupERK7QString@Base 6.2.0
+ _ZN17QQmlDelegateModel15_q_columnsMovedERK11QModelIndexiiS2_i@Base 6.2.1
  _ZN17QQmlDelegateModel15_q_itemsChangedEiiRK5QListIiE@Base 6.2.0
  _ZN17QQmlDelegateModel15_q_itemsRemovedEii@Base 6.2.0
  _ZN17QQmlDelegateModel15_q_rowsInsertedERK11QModelIndexii@Base 6.2.0
@@ -151,7 +153,9 @@ libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
  _ZN17QQmlDelegateModel16resetFilterGroupEv@Base 6.2.0
  _ZN17QQmlDelegateModel16rootIndexChangedEv@Base 6.2.0
  _ZN17QQmlDelegateModel16staticMetaObjectE@Base 6.2.0
+ _ZN17QQmlDelegateModel17_q_columnsRemovedERK11QModelIndexii@Base 6.2.1
  _ZN17QQmlDelegateModel17componentCompleteEv@Base 6.2.0
+ _ZN17QQmlDelegateModel18_q_columnsInsertedERK11QModelIndexii@Base 6.2.1
  _ZN17QQmlDelegateModel18filterGroupChangedEv@Base 6.2.0
  _ZN17QQmlDelegateModel20defaultGroupsChangedEv@Base 6.2.0
  _ZN17QQmlDelegateModel21qmlAttachedPropertiesEP7QObject@Base 6.2.0

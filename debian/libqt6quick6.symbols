@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
@@ -954,13 +954,13 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN14QQuickDropArea13sourceChangedEv@Base 6.2.0
  _ZN14QQuickDropArea14dragEnterEventEP15QDragEnterEvent@Base 6.2.0
  _ZN14QQuickDropArea14dragLeaveEventEP15QDragLeaveEvent@Base 6.2.0
- _ZN14QQuickDropArea15positionChangedEP15QQuickDropEvent@Base 6.2.0
+ _ZN14QQuickDropArea15positionChangedEP15QQuickDragEvent@Base 6.2.1
  _ZN14QQuickDropArea16staticMetaObjectE@Base 6.2.0
  _ZN14QQuickDropArea19containsDragChangedEv@Base 6.2.0
  _ZN14QQuickDropArea4dragEv@Base 6.2.0
  _ZN14QQuickDropArea6exitedEv@Base 6.2.0
- _ZN14QQuickDropArea7droppedEP15QQuickDropEvent@Base 6.2.0
- _ZN14QQuickDropArea7enteredEP15QQuickDropEvent@Base 6.2.0
+ _ZN14QQuickDropArea7droppedEP15QQuickDragEvent@Base 6.2.1
+ _ZN14QQuickDropArea7enteredEP15QQuickDragEvent@Base 6.2.1
  _ZN14QQuickDropArea7setKeysERK5QListI7QStringE@Base 6.2.0
  _ZN14QQuickDropArea9dropEventEP10QDropEvent@Base 6.2.0
  _ZN14QQuickDropAreaC1EP10QQuickItem@Base 6.2.0
@@ -2388,6 +2388,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN16QSGBatchRenderer8Renderer14checkLineWidthEP11QSGGeometry@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer14cleanupBatchesEP11QDataBufferIPNS_5BatchEE@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer14nodeWasRemovedEPNS_4NodeE@Base 6.2.0
+ _ZN16QSGBatchRenderer8Renderer14releaseElementEPNS_7ElementEb@Base 6.2.1
  _ZN16QSGBatchRenderer8Renderer15beginRenderPassEPNS0_17RenderPassContextE@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer15changeBatchRootEPNS_4NodeES2_@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer15updateClipStateEPK11QSGClipNodePNS_5BatchE@Base 6.2.0
@@ -2418,12 +2419,11 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN16QSGBatchRenderer8Renderer24updateMaterialStaticDataEPNS_19ShaderManagerShaderERN17QSGMaterialShader11RenderStateEP11QSGMaterialPNS_5BatchEPb@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer25invalidateAndRecycleBatchEPNS_5BatchE@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer25removeBatchRootFromParentEPNS_4NodeE@Base 6.2.0
- _ZN16QSGBatchRenderer8Renderer25updateMaterialDynamicDataEPNS_19ShaderManagerShaderERN17QSGMaterialShader11RenderStateEP11QSGMaterialP15QVarLengthArrayI25QRhiShaderResourceBindingLx8EEPKNS_5BatchEii@Base 6.2.0
+ _ZN16QSGBatchRenderer8Renderer25updateMaterialDynamicDataEPNS_19ShaderManagerShaderERN17QSGMaterialShader11RenderStateEP11QSGMaterialPKNS_5BatchEPNS_7ElementEii@Base 6.2.1
  _ZN16QSGBatchRenderer8Renderer26prepareRenderUnmergedBatchEPNS_5BatchEPNS0_19PreparedRenderBatchE@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer27buildRenderListsFromScratchEv@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer29applyClipStateToGraphicsStateEv@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer30buildRenderListsForTaggedRootsEv@Base 6.2.0
- _ZN16QSGBatchRenderer8Renderer33invalidatePipelineCacheDependencyEP24QRhiRenderPassDescriptor@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer3mapEPNS_6BufferEib@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer41invalidateBatchAndOverlappingRenderOrdersEPNS_5BatchE@Base 6.2.0
  _ZN16QSGBatchRenderer8Renderer5unmapEPNS_6BufferEb@Base 6.2.0

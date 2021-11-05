@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
 | libqt6quicktemplates2-6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
@@ -51,6 +51,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN10QQuickIcon7setNameERK7QString@Base 6.2.0
  _ZN10QQuickIcon8setCacheEb@Base 6.2.0
  _ZN10QQuickIcon8setColorERK6QColor@Base 6.2.0
+ _ZN10QQuickIcon8setOwnerEP7QObject@Base 6.2.1
  _ZN10QQuickIcon8setWidthEi@Base 6.2.0
  _ZN10QQuickIcon9resetNameEv@Base 6.2.0
  _ZN10QQuickIcon9setHeightEi@Base 6.2.0
@@ -2221,6 +2222,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZNK10QQuickDial8stepSizeEv@Base 6.2.0
  _ZNK10QQuickDial9inputModeEv@Base 6.2.0
  _ZNK10QQuickDial9isPressedEv@Base 6.2.0
+ _ZNK10QQuickIcon14resolvedSourceEv@Base 6.2.1
  _ZNK10QQuickIcon4nameEv@Base 6.2.0
  _ZNK10QQuickIcon5cacheEv@Base 6.2.0
  _ZNK10QQuickIcon5colorEv@Base 6.2.0
