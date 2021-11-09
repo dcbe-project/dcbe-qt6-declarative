@@ -1,7 +1,7 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6LabsWavefrontMesh.so.6 libqt6labswavefrontmesh6 #MINVER#
 | libqt6labswavefrontmesh6 #MINVER#, qt6-declarative-abi (= 6.2.1)
-* Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
+* Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z40qml_register_types_Qt_labs_wavefrontmeshv@Base 6.2.0
  _ZN14QWavefrontMesh11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN14QWavefrontMesh11qt_metacastEPKc@Base 6.2.0

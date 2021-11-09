@@ -1,7 +1,7 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QuickControls2Impl.so.6 libqt6quickcontrols2impl6 #MINVER#
 | libqt6quickcontrols2impl6 #MINVER#, qt6-declarative-abi (= 6.2.1)
-* Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
+* Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z40qml_register_types_QtQuick_Controls_implv@Base 6.2.0
  _ZN11QQuickColor11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN11QQuickColor11qt_metacastEPKc@Base 6.2.0

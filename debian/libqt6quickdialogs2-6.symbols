@@ -1,7 +1,7 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QuickDialogs2.so.6 libqt6quickdialogs2-6 #MINVER#
 | libqt6quickdialogs2-6 #MINVER#, qt6-declarative-abi (= 6.2.1)
-* Build-Depends-Package: qt6-declarative-dev, qt6-declarative-private-dev
+* Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z34qml_register_types_QtQuick_Dialogsv@Base 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
  _ZGVZN9QMetaType23registerMutableViewImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Base 6.2.0
