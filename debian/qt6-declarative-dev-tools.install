@@ -1,6 +1,3 @@
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/libexec/qmlcachegen
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/libexec/qmlimportscanner
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/libexec/qmltyperegistrar
 usr/lib/qt6/bin/qmldom
 usr/lib/qt6/bin/qmleasing
 usr/lib/qt6/bin/qmlformat
@@ -10,3 +7,6 @@ usr/lib/qt6/bin/qmlpreview
 usr/lib/qt6/bin/qmlprofiler
 usr/lib/qt6/bin/qmltestrunner
 usr/lib/qt6/bin/qmltime
+usr/lib/qt6/libexec/qmlcachegen
+usr/lib/qt6/libexec/qmlimportscanner
+usr/lib/qt6/libexec/qmltyperegistrar
