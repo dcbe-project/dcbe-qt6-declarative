@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386
 libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
 | libqt6quicktemplates2-6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -1332,7 +1332,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN17QQuickMenuPrivate13itemDestroyedEP10QQuickItem@Base 6.2.0
  _ZN17QQuickMenuPrivate13onItemHoveredEv@Base 6.2.0
  _ZN17QQuickMenuPrivate13setParentMenuEP10QQuickMenu@Base 6.2.0
- _ZN17QQuickMenuPrivate14contentData_atEP16QQmlListPropertyI7QObjectEx@Base 6.2.0
+ (subst)_ZN17QQuickMenuPrivate14contentData_atEP16QQmlListPropertyI7QObjectE{qptrdiff}@Base 6.2.0
  _ZN17QQuickMenuPrivate14itemChildAddedEP10QQuickItemS1_@Base 6.2.0
  _ZN17QQuickMenuPrivate14stopHoverTimerEv@Base 6.2.0
  _ZN17QQuickMenuPrivate15beginCreateItemEv@Base 6.2.0
@@ -1710,7 +1710,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN20QQuickMenuBarPrivate24itemImplicitWidthChangedEP10QQuickItem@Base 6.2.0
  _ZN20QQuickMenuBarPrivate25itemImplicitHeightChangedEP10QQuickItem@Base 6.2.0
  _ZN20QQuickMenuBarPrivate5menusEv@Base 6.2.0
- _ZN20QQuickMenuBarPrivate8menus_atEP16QQmlListPropertyI10QQuickMenuEx@Base 6.2.0
+ (subst)_ZN20QQuickMenuBarPrivate8menus_atEP16QQmlListPropertyI10QQuickMenuE{qptrdiff}@Base 6.2.0
  _ZN20QQuickSwitchDelegate10touchEventEP11QTouchEvent@Base 6.2.0
  _ZN20QQuickSwitchDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN20QQuickSwitchDelegate11qt_metacastEPKc@Base 6.2.0
@@ -1895,12 +1895,12 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN22QQuickContainerPrivate10removeItemEiP10QQuickItem@Base 6.2.0
  _ZN22QQuickContainerPrivate12reorderItemsEv@Base 6.2.0
  _ZN22QQuickContainerPrivate13itemDestroyedEP10QQuickItem@Base 6.2.0
- _ZN22QQuickContainerPrivate14contentData_atEP16QQmlListPropertyI7QObjectEx@Base 6.2.0
+ (subst)_ZN22QQuickContainerPrivate14contentData_atEP16QQmlListPropertyI7QObjectE{qptrdiff}@Base 6.2.0
  _ZN22QQuickContainerPrivate14itemChildAddedEP10QQuickItemS1_@Base 6.2.0
  _ZN22QQuickContainerPrivate17contentData_clearEP16QQmlListPropertyI7QObjectE@Base 6.2.0
  _ZN22QQuickContainerPrivate17contentData_countEP16QQmlListPropertyI7QObjectE@Base 6.2.0
  _ZN22QQuickContainerPrivate17itemParentChangedEP10QQuickItemS1_@Base 6.2.0
- _ZN22QQuickContainerPrivate18contentChildren_atEP16QQmlListPropertyI10QQuickItemEx@Base 6.2.0
+ (subst)_ZN22QQuickContainerPrivate18contentChildren_atEP16QQmlListPropertyI10QQuickItemE{qptrdiff}@Base 6.2.0
  _ZN22QQuickContainerPrivate18contentData_appendEP16QQmlListPropertyI7QObjectEPS1_@Base 6.2.0
  _ZN22QQuickContainerPrivate18updateContentWidthEv@Base 6.2.0
  _ZN22QQuickContainerPrivate19updateContentHeightEv@Base 6.2.0
