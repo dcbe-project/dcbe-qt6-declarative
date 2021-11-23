@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386 ppc64el
+# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386 ppc64el riscv64
 libQt6Qml.so.6 libqt6qml6 #MINVER#
 | libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -3096,6 +3096,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZNK3QV45Value16toQStringNoThrowEv@Base 6.2.0
  _ZNK3QV45Value8toUInt16Ev@Base 6.2.0
  _ZNK3QV45Value9sameValueES0_@Base 6.2.0
+ (arch=riscv64)_ZNK3QV45Value9toIntegerEv@Base 6.2.0
  _ZNK3QV45Value9toQStringEPb@Base 6.2.0
  _ZNK3QV45Value9toQStringEv@Base 6.2.0
  _ZNK3QV46Module13resolveExportENS_11PropertyKeyE@Base 6.2.0
@@ -3348,20 +3349,20 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE17_M_realloc_insertIJRKS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorISt4pairIPKciESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 6.2.0
- (optional=templinst|arch=!amd64 !ppc64el)_ZNSt6vectorIbSaIbEE13_M_insert_auxESt13_Bit_iteratorb@Base 6.2.1
+ (optional=templinst|arch=armel armhf i386)_ZNSt6vectorIbSaIbEE13_M_insert_auxESt13_Bit_iteratorb@Base 6.2.1
  (optional=templinst)_ZNSt6vectorIbSaIbEE8_M_eraseESt13_Bit_iterator@Base 6.2.0
- (optional=templinst|arch=!armel !ppc64el|subst)_ZNSt6vectorIcSaIcEE17_M_default_appendE{size_t}@Base 6.2.0
- (optional=templinst|arch=!armel !ppc64el)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Base 6.2.0
+ (optional=templinst|arch=amd64 armhf i386|subst)_ZNSt6vectorIcSaIcEE17_M_default_appendE{size_t}@Base 6.2.0
+ (optional=templinst|arch=amd64 armhf i386)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIdSaIdEE17_M_realloc_insertIJRKdEEEvN9__gnu_cxx17__normal_iteratorIPdS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 6.2.0
- (optional=templinst|arch=amd64 ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
+ (optional=templinst|arch=amd64 ppc64el riscv64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE24_M_get_insert_unique_posERS2_@Base 6.2.0
- (optional=templinst|arch=amd64 ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Base 6.2.0
+ (optional=templinst|arch=amd64 ppc64el riscv64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
- (optional=templinst|arch=amd64 ppc64el)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 6.2.0
+ (optional=templinst|arch=amd64 ppc64el riscv64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 6.2.0
  _ZTI10QQmlEngine@Base 6.2.0
  _ZTI11QQmlBinding@Base 6.2.0
  _ZTI11QQmlContext@Base 6.2.0
@@ -3582,15 +3583,15 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZTIN6QQmlJS3AST9CaseBlockE@Base 6.2.0
  _ZTIN6QQmlJS3AST9StatementE@Base 6.2.0
  _ZTIN6QQmlJS3AST9UiProgramE@Base 6.2.0
- (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 6.2.0
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTIPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
- (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
- (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 6.2.0
- (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTIZN3QV48Compiler7Codegen29VolatileMemoryLocationScanner18collectIdentifiersER5QListI11QStringViewEPN6QQmlJS3AST4NodeEE9Collector@Base 6.2.0
  (subst)_ZTIZN9QMetaType17registerConverterI5QHashI{quintptr}N12QQmlProfiler8LocationEE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS4_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  (subst)_ZTIZN9QMetaType17registerConverterI5QHashI{quintptr}N3QV49Profiling16FunctionLocationEE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Base 6.2.0
@@ -3846,15 +3847,15 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZTSN6QQmlJS3AST9CaseBlockE@Base 6.2.0
  _ZTSN6QQmlJS3AST9StatementE@Base 6.2.0
  _ZTSN6QQmlJS3AST9UiProgramE@Base 6.2.0
- (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 6.2.0
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTSPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
- (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
- (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTSSt19_Sp_make_shared_tag@Base 6.2.0
- (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTSZN3QV48Compiler7Codegen29VolatileMemoryLocationScanner18collectIdentifiersER5QListI11QStringViewEPN6QQmlJS3AST4NodeEE9Collector@Base 6.2.0
  (subst)_ZTSZN9QMetaType17registerConverterI5QHashI{quintptr}N12QQmlProfiler8LocationEE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS4_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  (subst)_ZTSZN9QMetaType17registerConverterI5QHashI{quintptr}N3QV49Profiling16FunctionLocationEE9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Base 6.2.0
@@ -4100,8 +4101,8 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZTVN6QQmlJS3AST9CaseBlockE@Base 6.2.0
  _ZTVN6QQmlJS3AST9StatementE@Base 6.2.0
  _ZTVN6QQmlJS3AST9UiProgramE@Base 6.2.0
- (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTVSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTVZN3QV48Compiler7Codegen29VolatileMemoryLocationScanner18collectIdentifiersER5QListI11QStringViewEPN6QQmlJS3AST4NodeEE9Collector@Base 6.2.0
  _ZZN8QQmlData4initEvE11initialized@Base 6.2.0
  (optional=templinst|subst)_ZZN9QMetaType21registerConverterImplI5QHashI{quintptr}N12QQmlProfiler8LocationEE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
@@ -4246,9 +4247,9 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Base 6.2.0
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Base 6.2.0
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Base 6.2.0
- (optional=templinst|arch=!amd64 !ppc64el)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Base 6.2.1
- (optional=templinst|arch=!amd64 !ppc64el)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Base 6.2.1
- (optional=templinst|arch=!amd64 !ppc64el)_ZZN9QtPrivate16QMetaTypeForTypeIjE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Base 6.2.1
+ (optional=templinst|arch=armel armhf i386)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Base 6.2.1
+ (optional=templinst|arch=armel armhf i386)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Base 6.2.1
+ (optional=templinst|arch=armel armhf i386)_ZZN9QtPrivate16QMetaTypeForTypeIjE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Base 6.2.1
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Base 6.2.0
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Base 6.2.0
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Base 6.2.0

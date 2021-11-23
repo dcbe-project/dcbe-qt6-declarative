@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386
+# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386 riscv64
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.1)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -2138,8 +2138,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN16QNativeInterface16QSGOpenGLTextureD0Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGOpenGLTextureD1Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGOpenGLTextureD2Ev@Base 6.2.0
- (arch=amd64)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEP9VkImage_T13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS4_19CreateTextureOptionEE@Base 6.2.0
- (arch=!amd64)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
+ (arch=amd64 riscv64)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEP9VkImage_T13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS4_19CreateTextureOptionEE@Base 6.2.0
+ (arch=!amd64 !riscv64)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
  _ZN16QNativeInterface16QSGVulkanTextureD0Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGVulkanTextureD1Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGVulkanTextureD2Ev@Base 6.2.0
@@ -2969,8 +2969,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN18QQuickPointHandler18translationChangedEv@Base 6.2.0
  _ZN18QQuickPointHandlerC1EP10QQuickItem@Base 6.2.0
  _ZN18QQuickPointHandlerC2EP10QQuickItem@Base 6.2.0
- (arch=amd64)_ZN18QQuickRenderTarget15fromVulkanImageEP9VkImage_T13VkImageLayoutRK5QSizei@Base 6.2.0
- (arch=!amd64)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
+ (arch=amd64 riscv64)_ZN18QQuickRenderTarget15fromVulkanImageEP9VkImage_T13VkImageLayoutRK5QSizei@Base 6.2.0
+ (arch=!amd64 !riscv64)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget17fromOpenGLTextureEjRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget19fromRhiRenderTargetEP16QRhiRenderTarget@Base 6.2.0
  _ZN18QQuickRenderTarget22fromOpenGLRenderBufferEjRK5QSizei@Base 6.2.0
@@ -6696,13 +6696,13 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZNK9QQuickRow15layoutDirectionEv@Base 6.2.0
  _ZNK9QQuickRow24effectiveLayoutDirectionEv@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 6.2.0
- (optional=templinst|arch=amd64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
+ (optional=templinst|arch=amd64 riscv64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiN3QV415PersistentValueEESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiN3QV415PersistentValueEESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP12QQuickPixmapESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
- (optional=templinst|arch=amd64)_ZNSt8_Rb_treeIiSt4pairIKiP12QQuickPixmapESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
+ (optional=templinst|arch=amd64 riscv64)_ZNSt8_Rb_treeIiSt4pairIKiP12QQuickPixmapESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP16QQuickTouchPointESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
- (optional=templinst|arch=amd64)_ZNSt8_Rb_treeIiSt4pairIKiP16QQuickTouchPointESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
+ (optional=templinst|arch=amd64 riscv64)_ZNSt8_Rb_treeIiSt4pairIKiP16QQuickTouchPointESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP7QObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP7QObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Base 6.2.0
  _ZTI10QQuickDrag@Base 6.2.0
@@ -6994,15 +6994,15 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTIN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
  _ZTIN23QQuickFramebufferObject8RendererE@Base 6.2.0
  _ZTIN3QV415ExecutionEngine9DeletableE@Base 6.2.0
- (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 6.2.0
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTIPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
- (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
- (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 6.2.0
- (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTISt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTIZN9QMetaType17registerConverterI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  _ZTIZN9QMetaType17registerConverterI5QListI7QPointFE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  _ZTIZN9QMetaType17registerConverterI5QListI9QPolygonFE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
@@ -7304,15 +7304,15 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTSN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
  _ZTSN23QQuickFramebufferObject8RendererE@Base 6.2.0
  _ZTSN3QV415ExecutionEngine9DeletableE@Base 6.2.0
- (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 6.2.0
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTSPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
- (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
- (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTSSt19_Sp_make_shared_tag@Base 6.2.0
- (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTSSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  _ZTSZN9QMetaType17registerConverterI5QListI4QUrlE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  _ZTSZN9QMetaType17registerConverterI5QListI7QPointFE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
  _ZTSZN9QMetaType17registerConverterI5QListI9QPolygonFE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Base 6.2.0
@@ -7601,8 +7601,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTVN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTVN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
  _ZTVN23QQuickFramebufferObject8RendererE@Base 6.2.0
- (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
- (arch=!armel)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI7QPointFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI9QPolygonFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
