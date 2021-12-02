@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6LabsFolderListModel.so.6 libqt6labsfolderlistmodel6 #MINVER#
-| libqt6labsfolderlistmodel6 #MINVER#, qt6-declarative-abi (= 6.2.1)
+| libqt6labsfolderlistmodel6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z42qml_register_types_Qt_labs_folderlistmodelv@Base 6.2.0
  _ZN21QQuickFolderListModel10classBeginEv@Base 6.2.0

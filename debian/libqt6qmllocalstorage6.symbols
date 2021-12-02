@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QmlLocalStorage.so.6 libqt6qmllocalstorage6 #MINVER#
-| libqt6qmllocalstorage6 #MINVER#, qt6-declarative-abi (= 6.2.1)
+| libqt6qmllocalstorage6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z39qml_register_types_QtQuick_LocalStoragev@Base 6.2.0
  _ZN16QQmlLocalStorage11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
