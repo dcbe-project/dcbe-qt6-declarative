@@ -1,9 +1,9 @@
-qt6-declarative (6.2.2+dfsg-2) UNRELEASED; urgency=medium
+qt6-declarative (6.2.2+dfsg-2) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Fix list of files not to be installed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Dec 2021 10:46:12 +0100
+ -- Patrick Franz <deltaone@debian.org>  Fri, 03 Dec 2021 10:47:35 +0100
 
 qt6-declarative (6.2.2+dfsg-1) experimental; urgency=medium
 
