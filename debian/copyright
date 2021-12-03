@@ -501,34 +501,34 @@ License: LGPL-3 or GPL-2
 
 ## LGPL-3 or GPL-2+
 
-Files: src/labs/platform/qquickplatformcolordialog.cpp
-       src/labs/platform/qquickplatformcolordialog_p.h
-       src/labs/platform/qquickplatformdialog.cpp
-       src/labs/platform/qquickplatformdialog_p.h
-       src/labs/platform/qquickplatformfiledialog.cpp
-       src/labs/platform/qquickplatformfiledialog_p.h
-       src/labs/platform/qquickplatformfolderdialog.cpp
-       src/labs/platform/qquickplatformfolderdialog_p.h
-       src/labs/platform/qquickplatformfontdialog.cpp
-       src/labs/platform/qquickplatformfontdialog_p.h
-       src/labs/platform/qquickplatformicon.cpp
-       src/labs/platform/qquickplatformicon_p.h
-       src/labs/platform/qquickplatformiconloader.cpp
-       src/labs/platform/qquickplatformiconloader_p.h
-       src/labs/platform/qquickplatformmenu.cpp
-       src/labs/platform/qquickplatformmenu_p.h
-       src/labs/platform/qquickplatformmenubar.cpp
-       src/labs/platform/qquickplatformmenubar_p.h
-       src/labs/platform/qquickplatformmenuitem.cpp
-       src/labs/platform/qquickplatformmenuitem_p.h
-       src/labs/platform/qquickplatformmenuitemgroup.cpp
-       src/labs/platform/qquickplatformmenuitemgroup_p.h
-       src/labs/platform/qquickplatformmenuseparator.cpp
-       src/labs/platform/qquickplatformmenuseparator_p.h
-       src/labs/platform/qquickplatformmessagedialog.cpp
-       src/labs/platform/qquickplatformmessagedialog_p.h
-       src/labs/platform/qquickplatformsystemtrayicon.cpp
-       src/labs/platform/qquickplatformsystemtrayicon_p.h
+Files: src/labs/platform/qquicklabsplatformcolordialog.cpp
+       src/labs/platform/qquicklabsplatformcolordialog_p.h
+       src/labs/platform/qquicklabsplatformdialog.cpp
+       src/labs/platform/qquicklabsplatformdialog_p.h
+       src/labs/platform/qquicklabsplatformfiledialog.cpp
+       src/labs/platform/qquicklabsplatformfiledialog_p.h
+       src/labs/platform/qquicklabsplatformfolderdialog.cpp
+       src/labs/platform/qquicklabsplatformfolderdialog_p.h
+       src/labs/platform/qquicklabsplatformfontdialog.cpp
+       src/labs/platform/qquicklabsplatformfontdialog_p.h
+       src/labs/platform/qquicklabsplatformicon.cpp
+       src/labs/platform/qquicklabsplatformicon_p.h
+       src/labs/platform/qquicklabsplatformiconloader.cpp
+       src/labs/platform/qquicklabsplatformiconloader_p.h
+       src/labs/platform/qquicklabsplatformmenu.cpp
+       src/labs/platform/qquicklabsplatformmenu_p.h
+       src/labs/platform/qquicklabsplatformmenubar.cpp
+       src/labs/platform/qquicklabsplatformmenubar_p.h
+       src/labs/platform/qquicklabsplatformmenuitem.cpp
+       src/labs/platform/qquicklabsplatformmenuitem_p.h
+       src/labs/platform/qquicklabsplatformmenuitemgroup.cpp
+       src/labs/platform/qquicklabsplatformmenuitemgroup_p.h
+       src/labs/platform/qquicklabsplatformmenuseparator.cpp
+       src/labs/platform/qquicklabsplatformmenuseparator_p.h
+       src/labs/platform/qquicklabsplatformmessagedialog.cpp
+       src/labs/platform/qquicklabsplatformmessagedialog_p.h
+       src/labs/platform/qquicklabsplatformsystemtrayicon.cpp
+       src/labs/platform/qquicklabsplatformsystemtrayicon_p.h
        src/labs/platform/qtlabsplatformplugin.cpp
        src/labs/platform/widgets/qwidgetplatform_p.h
        src/labs/platform/widgets/qwidgetplatformcolordialog.cpp

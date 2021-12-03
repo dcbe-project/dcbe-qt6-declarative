@@ -6,6 +6,7 @@ qt6-declarative (6.2.2+dfsg-1) UNRELEASED; urgency=medium
   * Update ABI to 6.2.2.
   * Update installed files.
   * Update symbols from buildlog.
+  * Update d/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Dec 2021 02:35:05 +0100
 
