@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 ia64 ppc64el riscv64 sh4
+# SymbolsHelper-Confirmed: 6.2.2 amd64
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -4509,7 +4509,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN24QQuickShaderEffectSource19setTextureMirroringENS_16TextureMirroringE@Base 6.2.0
  _ZN24QQuickShaderEffectSource19sourceItemDestroyedEP7QObject@Base 6.2.0
  _ZN24QQuickShaderEffectSource20invalidateSceneGraphEv@Base 6.2.0
- _ZN24QQuickShaderEffectSource23sourceItemParentChangedEP10QQuickItem@Base 6.2.0
  _ZN24QQuickShaderEffectSource23textureMirroringChangedEv@Base 6.2.0
  _ZN24QQuickShaderEffectSource24scheduledUpdateCompletedEv@Base 6.2.0
  _ZN24QQuickShaderEffectSource7setLiveEb@Base 6.2.0
@@ -5004,6 +5003,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN32QQuickItemViewTransitionableItem15startTransitionEP26QQuickItemViewTransitioneri@Base 6.2.0
  _ZN32QQuickItemViewTransitionableItem17prepareTransitionEP26QQuickItemViewTransitioneriRK6QRectF@Base 6.2.0
  _ZN32QQuickItemViewTransitionableItem17setNextTransitionEN26QQuickItemViewTransitioner14TransitionTypeEb@Base 6.2.0
+ _ZN32QQuickItemViewTransitionableItem18completeTransitionEP16QQuickTransition@Base 6.2.2
  _ZN32QQuickItemViewTransitionableItem18finishedTransitionEv@Base 6.2.0
  _ZN32QQuickItemViewTransitionableItem22resetNextTransitionPosEv@Base 6.2.0
  _ZN32QQuickItemViewTransitionableItem31clearCurrentScheduledTransitionEv@Base 6.2.0

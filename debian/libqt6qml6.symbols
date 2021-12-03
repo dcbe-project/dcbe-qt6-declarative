@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 ia64 ppc64el riscv64 sh4
+# SymbolsHelper-Confirmed: 6.2.2 amd64
 libQt6Qml.so.6 libqt6qml6 #MINVER#
 | libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -927,6 +927,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN19QQmlPropertyPrivate11flushSignalEPK7QObjecti@Base 6.2.0
  _ZN19QQmlPropertyPrivate11initDefaultEP7QObject@Base 6.2.0
  _ZN19QQmlPropertyPrivate11urlSequenceERK8QVariant@Base 6.2.0
+ _ZN19QQmlPropertyPrivate11urlSequenceERK8QVariantRK14QQmlRefPointerI15QQmlContextDataE@Base 6.2.2
  _ZN19QQmlPropertyPrivate12initPropertyEP7QObjectRK7QString@Base 6.2.0
  _ZN19QQmlPropertyPrivate13propertyIndexERK12QQmlProperty@Base 6.2.0
  _ZN19QQmlPropertyPrivate13removeBindingEP19QQmlAbstractBinding@Base 6.2.0
@@ -943,6 +944,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN19QQmlPropertyPrivate19setSignalExpressionERK12QQmlPropertyP25QQmlBoundSignalExpression@Base 6.2.0
  _ZN19QQmlPropertyPrivate20rawMetaObjectForTypeEP17QQmlEnginePrivatei@Base 6.2.0
  _ZN19QQmlPropertyPrivate20takeSignalExpressionERK12QQmlPropertyP25QQmlBoundSignalExpression@Base 6.2.0
+ _ZN19QQmlPropertyPrivate23resolveUrlsOnAssignmentEv@Base 6.2.2
  _ZN19QQmlPropertyPrivate5writeEP7QObjectRK16QQmlPropertyDataRK8QVariantRK14QQmlRefPointerI15QQmlContextDataE6QFlagsINS2_9WriteFlagEE@Base 6.2.0
  _ZN19QQmlPropertyPrivate5writeERK12QQmlPropertyRK8QVariant6QFlagsIN16QQmlPropertyData9WriteFlagEE@Base 6.2.0
  _ZN19QQmlPropertyPrivate6createEP7QObjectRK7QStringRK14QQmlRefPointerI15QQmlContextDataE@Base 6.2.0
@@ -1035,6 +1037,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN21QAbstractAnimationJob5pauseEv@Base 6.2.0
  _ZN21QAbstractAnimationJob5startEv@Base 6.2.0
  _ZN21QAbstractAnimationJob6resumeEv@Base 6.2.0
+ _ZN21QAbstractAnimationJob8completeEv@Base 6.2.2
  _ZN21QAbstractAnimationJob8finishedEv@Base 6.2.0
  _ZN21QAbstractAnimationJob8setStateENS_5StateE@Base 6.2.0
  _ZN21QAbstractAnimationJobC1Ev@Base 6.2.0

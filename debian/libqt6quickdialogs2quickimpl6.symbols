@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 ia64 ppc64el riscv64 sh4
+# SymbolsHelper-Confirmed: 6.2.2 amd64
 libQt6QuickDialogs2QuickImpl.so.6 libqt6quickdialogs2quickimpl6 #MINVER#
 | libqt6quickdialogs2quickimpl6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -31,12 +31,12 @@ libQt6QuickDialogs2QuickImpl.so.6 libqt6quickdialogs2quickimpl6 #MINVER#
  _ZN20QQuickFontDialogImpl12fontSelectedERK5QFont@Base 6.2.0
  _ZN20QQuickFontDialogImpl13focusOutEventEP11QFocusEvent@Base 6.2.0
  _ZN20QQuickFontDialogImpl14optionsChangedEv@Base 6.2.0
- _ZN20QQuickFontDialogImpl14setCurrentFontERK5QFont@Base 6.2.0
+ _ZN20QQuickFontDialogImpl14setCurrentFontERK5QFontb@Base 6.2.2
  _ZN20QQuickFontDialogImpl15keyReleaseEventEP9QKeyEvent@Base 6.2.0
- _ZN20QQuickFontDialogImpl15updateListViewsEv@Base 6.2.0
  _ZN20QQuickFontDialogImpl16staticMetaObjectE@Base 6.2.0
  _ZN20QQuickFontDialogImpl18currentFontChangedERK5QFont@Base 6.2.0
  _ZN20QQuickFontDialogImpl21qmlAttachedPropertiesEP7QObject@Base 6.2.0
+ _ZN20QQuickFontDialogImpl4initEv@Base 6.2.2
  _ZN20QQuickFontDialogImplC1EP7QObject@Base 6.2.0
  _ZN20QQuickFontDialogImplC2EP7QObject@Base 6.2.0
  _ZN23QQuickDialogImplFactory26createPlatformDialogHelperEN14QPlatformTheme10DialogTypeEP7QObject@Base 6.2.0
@@ -140,6 +140,7 @@ libQt6QuickDialogs2QuickImpl.so.6 libqt6quickdialogs2quickimpl6 #MINVER#
  _ZN28QQuickFontDialogImplAttached20setUnderlineCheckBoxEP14QQuickCheckBox@Base 6.2.0
  _ZN28QQuickFontDialogImplAttached20styleListViewChangedEv@Base 6.2.0
  _ZN28QQuickFontDialogImplAttached21familyListViewChangedEv@Base 6.2.0
+ _ZN28QQuickFontDialogImplAttached21selectFontInListViewsERK5QFont@Base 6.2.2
  _ZN28QQuickFontDialogImplAttached23_q_writingSystemChangedEi@Base 6.2.0
  _ZN28QQuickFontDialogImplAttached24setWritingSystemComboBoxEP14QQuickComboBox@Base 6.2.0
  _ZN28QQuickFontDialogImplAttached24strikeoutCheckBoxChangedEv@Base 6.2.0
