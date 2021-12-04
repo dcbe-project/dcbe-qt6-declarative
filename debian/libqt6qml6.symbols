@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64
+# SymbolsHelper-Confirmed: 6.2.2 amd64 mips64el
 libQt6Qml.so.6 libqt6qml6 #MINVER#
 | libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -3099,7 +3099,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZNK3QV45Value16toQStringNoThrowEv@Base 6.2.0
  _ZNK3QV45Value8toUInt16Ev@Base 6.2.0
  _ZNK3QV45Value9sameValueES0_@Base 6.2.0
- (arch=ia64 riscv64)_ZNK3QV45Value9toIntegerEv@Base 6.2.0
+ (arch=ia64 mips64el riscv64)_ZNK3QV45Value9toIntegerEv@Base 6.2.0
  _ZNK3QV45Value9toQStringEPb@Base 6.2.0
  _ZNK3QV45Value9toQStringEv@Base 6.2.0
  _ZNK3QV46Module13resolveExportENS_11PropertyKeyE@Base 6.2.0
@@ -3362,11 +3362,11 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 6.2.0
- (optional=templinst|arch=amd64 arm64 ia64 ppc64el riscv64 sh4)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE24_M_get_insert_unique_posERS2_@Base 6.2.0
- (optional=templinst|arch=amd64 arm64 ia64 ppc64el riscv64 sh4)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Base 6.2.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N13QQmlDirParser6ScriptEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Base 6.2.0
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Base 6.2.0
- (optional=templinst|arch=amd64 arm64 ia64 ppc64el riscv64 sh4)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 6.2.0
+ (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 6.2.0
  _ZTI10QQmlEngine@Base 6.2.0
  _ZTI11QQmlBinding@Base 6.2.0
  _ZTI11QQmlContext@Base 6.2.0
