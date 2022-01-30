@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64 mips64el
+# SymbolsHelper-Confirmed: 6.2.2 amd64 hurd-i386 mips64el
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.2)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -2138,11 +2138,11 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN16QNativeInterface16QSGOpenGLTextureD0Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGOpenGLTextureD1Ev@Base 6.2.0
  _ZN16QNativeInterface16QSGOpenGLTextureD2Ev@Base 6.2.0
- (arch-bits=64)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEP9VkImage_T13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS4_19CreateTextureOptionEE@Base 6.2.0
- (arch-bits=32)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
- _ZN16QNativeInterface16QSGVulkanTextureD0Ev@Base 6.2.0
- _ZN16QNativeInterface16QSGVulkanTextureD1Ev@Base 6.2.0
- _ZN16QNativeInterface16QSGVulkanTextureD2Ev@Base 6.2.0
+ (arch-bits=64|arch=linux-any)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEP9VkImage_T13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS4_19CreateTextureOptionEE@Base 6.2.0
+ (arch-bits=32|arch=linux-any)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
+ (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD0Ev@Base 6.2.0
+ (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD1Ev@Base 6.2.0
+ (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD2Ev@Base 6.2.0
  _ZN16QQuickAnchorLine16staticMetaObjectE@Base 6.2.0
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 6.2.0
@@ -2969,8 +2969,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN18QQuickPointHandler18translationChangedEv@Base 6.2.0
  _ZN18QQuickPointHandlerC1EP10QQuickItem@Base 6.2.0
  _ZN18QQuickPointHandlerC2EP10QQuickItem@Base 6.2.0
- (arch-bits=64)_ZN18QQuickRenderTarget15fromVulkanImageEP9VkImage_T13VkImageLayoutRK5QSizei@Base 6.2.0
- (arch-bits=32)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
+ (arch-bits=64|arch=linux-any)_ZN18QQuickRenderTarget15fromVulkanImageEP9VkImage_T13VkImageLayoutRK5QSizei@Base 6.2.0
+ (arch-bits=32|arch=linux-any)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget17fromOpenGLTextureEjRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget19fromRhiRenderTargetEP16QRhiRenderTarget@Base 6.2.0
  _ZN18QQuickRenderTarget22fromOpenGLRenderBufferEjRK5QSizei@Base 6.2.0
@@ -3507,9 +3507,9 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN20QQuickColorValueType6createERK8QJSValue@Base 6.2.0
  _ZN20QQuickColorValueType9setHslHueEd@Base 6.2.0
  _ZN20QQuickColorValueType9setHsvHueEd@Base 6.2.0
- _ZN20QQuickGraphicsDevice17fromDeviceObjectsEP18VkPhysicalDevice_TP10VkDevice_Tii@Base 6.2.0
+ (arch=linux-any)_ZN20QQuickGraphicsDevice17fromDeviceObjectsEP18VkPhysicalDevice_TP10VkDevice_Tii@Base 6.2.0
  _ZN20QQuickGraphicsDevice17fromOpenGLContextEP14QOpenGLContext@Base 6.2.0
- _ZN20QQuickGraphicsDevice18fromPhysicalDeviceEP18VkPhysicalDevice_T@Base 6.2.0
+ (arch=linux-any)_ZN20QQuickGraphicsDevice18fromPhysicalDeviceEP18VkPhysicalDevice_T@Base 6.2.0
  _ZN20QQuickGraphicsDevice6detachEv@Base 6.2.0
  _ZN20QQuickGraphicsDeviceC1ERKS_@Base 6.2.0
  _ZN20QQuickGraphicsDeviceC1Ev@Base 6.2.0
@@ -6589,8 +6589,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZNK24QSGSmoothTextureMaterial12createShaderEN20QSGRendererInterface10RenderModeE@Base 6.2.0
  _ZNK24QSGSmoothTextureMaterial4typeEv@Base 6.2.0
  _ZNK24QSGTexturePlatformOpenGL13nativeTextureEv@Base 6.2.0
- _ZNK24QSGTexturePlatformVulkan11nativeImageEv@Base 6.2.0
- _ZNK24QSGTexturePlatformVulkan17nativeImageLayoutEv@Base 6.2.0
+ (arch=linux-any)_ZNK24QSGTexturePlatformVulkan11nativeImageEv@Base 6.2.0
+ (arch=linux-any)_ZNK24QSGTexturePlatformVulkan17nativeImageLayoutEv@Base 6.2.0
  _ZNK25QQuickAnimationController10metaObjectEv@Base 6.2.0
  _ZNK25QQuickAnimationController8progressEv@Base 6.2.0
  _ZNK25QQuickAnimationController9animationEv@Base 6.2.0
@@ -6938,7 +6938,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTI24QSGSmoothTextureMaterial@Base 6.2.0
  _ZTI24QSGTexturePlatformOpenGL@Base 6.2.0
- _ZTI24QSGTexturePlatformVulkan@Base 6.2.0
+ (arch=linux-any)_ZTI24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTI25QQuickAnimationController@Base 6.2.0
  _ZTI25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTI25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -6988,7 +6988,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTIFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
  _ZTIN13QSGRenderNode11RenderStateE@Base 6.2.0
  _ZTIN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- _ZTIN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+ (arch=linux-any)_ZTIN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTIN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTIN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTIN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
@@ -7248,7 +7248,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTS24QSGSmoothTextureMaterial@Base 6.2.0
  _ZTS24QSGTexturePlatformOpenGL@Base 6.2.0
- _ZTS24QSGTexturePlatformVulkan@Base 6.2.0
+ (arch=linux-any)_ZTS24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTS25QQuickAnimationController@Base 6.2.0
  _ZTS25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTS25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -7298,7 +7298,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTSFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
  _ZTSN13QSGRenderNode11RenderStateE@Base 6.2.0
  _ZTSN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- _ZTSN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+ (arch=linux-any)_ZTSN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTSN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTSN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTSN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
@@ -7549,7 +7549,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTV24QSGSmoothTextureMaterial@Base 6.2.0
  _ZTV24QSGTexturePlatformOpenGL@Base 6.2.0
- _ZTV24QSGTexturePlatformVulkan@Base 6.2.0
+ (arch=linux-any)_ZTV24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTV25QQuickAnimationController@Base 6.2.0
  _ZTV25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTV25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -7596,7 +7596,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV9QQuickRow@Base 6.2.0
  _ZTVN13QSGRenderNode11RenderStateE@Base 6.2.0
  _ZTVN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- _ZTVN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+ (arch=linux-any)_ZTVN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTVN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTVN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTVN22QQuickFlickablePrivate8VelocityE@Base 6.2.0

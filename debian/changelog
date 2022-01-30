@@ -1,7 +1,8 @@
 qt6-declarative (6.2.2+dfsg-3) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
-  * Update symbols files from the logs of buildds.
+  * Update symbols files from the logs of buildds; limit Linux-only symbols as
+    well.
   * Limit the liblttng-ust-dev build dependency as linux-any, as it is specific
     to Linux.
 
