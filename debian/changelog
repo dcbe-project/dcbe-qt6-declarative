@@ -2,6 +2,8 @@ qt6-declarative (6.2.2+dfsg-3) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds.
+  * Limit the liblttng-ust-dev build dependency as linux-any, as it is specific
+    to Linux.
 
   [ Patrick Franz ]
   * Remove copyright-script as it is now in the pkg-kde-tools package.
