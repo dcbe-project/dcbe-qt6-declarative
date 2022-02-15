@@ -1,3 +1,7 @@
+qt6-declarative (6.2.2+dfsg-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Feb 2022 21:55:00 +0100
+
 qt6-declarative (6.2.2+dfsg-3) experimental; urgency=medium
 
   * Team upload.
