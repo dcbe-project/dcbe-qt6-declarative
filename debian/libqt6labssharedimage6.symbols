@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6LabsSharedImage.so.6 libqt6labssharedimage6 #MINVER#
-| libqt6labssharedimage6 #MINVER#, qt6-declarative-abi (= 6.2.2)
+| libqt6labssharedimage6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z38qml_register_types_Qt_labs_sharedimagev@Base 6.2.0
  _ZN18QSharedImageLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0

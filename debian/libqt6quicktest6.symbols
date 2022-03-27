@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QuickTest.so.6 libqt6quicktest6 #MINVER#
-| libqt6quicktest6 #MINVER#, qt6-declarative-abi (= 6.2.2)
+| libqt6quicktest6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z15quick_test_mainiPPcPKcS2_@Base 6.2.0
  _Z25qml_register_types_QtTestv@Base 6.2.0

@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6QmlCore.so.6 libqt6qmlcore6 #MINVER#
-| libqt6qmlcore6 #MINVER#, qt6-declarative-abi (= 6.2.2)
+| libqt6qmlcore6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z25qml_register_types_QtCorev@Base 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0

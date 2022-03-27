@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6LabsSettings.so.6 libqt6labssettings6 #MINVER#
-| libqt6labssettings6 #MINVER#, qt6-declarative-abi (= 6.2.2)
+| libqt6labssettings6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z35qml_register_types_Qt_labs_settingsv@Base 6.2.0
  _ZN12QQmlSettings10classBeginEv@Base 6.2.0

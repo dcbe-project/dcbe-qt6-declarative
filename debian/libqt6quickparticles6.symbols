@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.2.1 armel armhf i386
 libQt6QuickParticles.so.6 libqt6quickparticles6 #MINVER#
-| libqt6quickparticles6 #MINVER#, qt6-declarative-abi (= 6.2.2)
+| libqt6quickparticles6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
  _Z36qml_register_types_QtQuick_Particlesv@Base 6.2.0
  _ZN18QQuickParticleData10extendLifeEfP20QQuickParticleSystem@Base 6.2.0
