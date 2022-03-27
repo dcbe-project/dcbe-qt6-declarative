@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 armel armhf i386
+# SymbolsHelper-Confirmed: 6.2.4 amd64
 libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
 | libqt6quicktemplates2-6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -48,10 +48,10 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN10QQuickIcon11resetHeightEv@Base 6.2.0
  _ZN10QQuickIcon11resetSourceEv@Base 6.2.0
  _ZN10QQuickIcon16staticMetaObjectE@Base 6.2.0
+ _ZN10QQuickIcon28ensureRelativeSourceResolvedEPK7QObject@Base 6.2.4
  _ZN10QQuickIcon7setNameERK7QString@Base 6.2.0
  _ZN10QQuickIcon8setCacheEb@Base 6.2.0
  _ZN10QQuickIcon8setColorERK6QColor@Base 6.2.0
- _ZN10QQuickIcon8setOwnerEP7QObject@Base 6.2.1
  _ZN10QQuickIcon8setWidthEi@Base 6.2.0
  _ZN10QQuickIcon9resetNameEv@Base 6.2.0
  _ZN10QQuickIcon9setHeightEi@Base 6.2.0
@@ -466,6 +466,9 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN12QQuickDialogC1ER19QQuickDialogPrivateP7QObject@Base 6.2.0
  _ZN12QQuickDialogC2EP7QObject@Base 6.2.0
  _ZN12QQuickDialogC2ER19QQuickDialogPrivateP7QObject@Base 6.2.0
+ _ZN12QQuickDialogD0Ev@Base 6.2.4
+ _ZN12QQuickDialogD1Ev@Base 6.2.4
+ _ZN12QQuickDialogD2Ev@Base 6.2.4
  _ZN12QQuickDrawer10touchEventEP11QTouchEvent@Base 6.2.0
  _ZN12QQuickDrawer11edgeChangedEv@Base 6.2.0
  _ZN12QQuickDrawer11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
@@ -542,6 +545,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN12QQuickSwitch21visualPositionChangedEv@Base 6.2.0
  _ZN12QQuickSwitchC1EP10QQuickItem@Base 6.2.0
  _ZN12QQuickSwitchC2EP10QQuickItem@Base 6.2.0
+ _ZN12QQuickTabBar10wheelEventEP11QWheelEvent@Base 6.2.4
  _ZN12QQuickTabBar11itemRemovedEiP10QQuickItem@Base 6.2.0
  _ZN12QQuickTabBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN12QQuickTabBar11qt_metacastEPKc@Base 6.2.0
@@ -1649,6 +1653,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN20QQuickControlPrivate15updateFontRecurEP10QQuickItemRK5QFont@Base 6.2.0
  _ZN20QQuickControlPrivate16calcHoverEnabledEPK10QQuickItem@Base 6.2.0
  _ZN20QQuickControlPrivate16cancelBackgroundEv@Base 6.2.0
+ _ZN20QQuickControlPrivate16itemFocusChangedEP10QQuickItemN2Qt11FocusReasonE@Base 6.2.4
  _ZN20QQuickControlPrivate16resizeBackgroundEv@Base 6.2.0
  _ZN20QQuickControlPrivate16setBottomPaddingEdb@Base 6.2.0
  _ZN20QQuickControlPrivate17cancelContentItemEv@Base 6.2.0
@@ -2115,6 +2120,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN27QQuickAbstractButtonPrivate12handleUngrabEv@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate12setMovePointERK7QPointF@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate13handleReleaseERK7QPointF@Base 6.2.0
+ _ZN27QQuickAbstractButtonPrivate13itemDestroyedEP10QQuickItem@Base 6.2.4
  _ZN27QQuickAbstractButtonPrivate13setPressPointERK7QPointF@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate14ungrabShortcutEv@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate15cancelIndicatorEv@Base 6.2.0
@@ -2126,6 +2132,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZN27QQuickAbstractButtonPrivate16stopPressAndHoldEv@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate17startPressAndHoldEv@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate19updateEffectiveIconEv@Base 6.2.0
+ _ZN27QQuickAbstractButtonPrivate22isDoubleClickConnectedEv@Base 6.2.4
  _ZN27QQuickAbstractButtonPrivate23isPressAndHoldConnectedEv@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate24itemImplicitWidthChangedEP10QQuickItem@Base 6.2.0
  _ZN27QQuickAbstractButtonPrivate25itemImplicitHeightChangedEP10QQuickItem@Base 6.2.0
@@ -2978,7 +2985,6 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZTI23QQuickSplitViewAttached@Base 6.2.0
  _ZTI23QQuickStackViewAttached@Base 6.2.0
  _ZTI23QQuickSwipeViewAttached@Base 6.2.0
- _ZTI24QMutableSinglePointEvent@Base 6.2.0
  _ZTI24QQuickRadioButtonPrivate@Base 6.2.0
  _ZTI24QQuickSelectionRectangle@Base 6.2.0
  _ZTI24QQuickVerticalHeaderView@Base 6.2.0
@@ -3088,7 +3094,6 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZTS23QQuickSplitViewAttached@Base 6.2.0
  _ZTS23QQuickStackViewAttached@Base 6.2.0
  _ZTS23QQuickSwipeViewAttached@Base 6.2.0
- _ZTS24QMutableSinglePointEvent@Base 6.2.0
  _ZTS24QQuickRadioButtonPrivate@Base 6.2.0
  _ZTS24QQuickSelectionRectangle@Base 6.2.0
  _ZTS24QQuickVerticalHeaderView@Base 6.2.0
@@ -3197,7 +3202,6 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  _ZTV23QQuickSplitViewAttached@Base 6.2.0
  _ZTV23QQuickStackViewAttached@Base 6.2.0
  _ZTV23QQuickSwipeViewAttached@Base 6.2.0
- _ZTV24QMutableSinglePointEvent@Base 6.2.0
  _ZTV24QQuickRadioButtonPrivate@Base 6.2.0
  _ZTV24QQuickSelectionRectangle@Base 6.2.0
  _ZTV24QQuickVerticalHeaderView@Base 6.2.0
@@ -3249,6 +3253,7 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Base 6.2.0
  (c++)"non-virtual thunk to QQuickAbstractButton::componentComplete()@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickAbstractButton::~QQuickAbstractButton()@Base" 6.2.0
+ (c++)"non-virtual thunk to QQuickAbstractButtonPrivate::itemDestroyed(QQuickItem*)@Base" 6.2.4
  (c++)"non-virtual thunk to QQuickAbstractButtonPrivate::itemImplicitHeightChanged(QQuickItem*)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickAbstractButtonPrivate::itemImplicitWidthChanged(QQuickItem*)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickApplicationWindow::classBegin()@Base" 6.2.0
@@ -3275,11 +3280,13 @@ libQt6QuickTemplates2.so.6 libqt6quicktemplates2-6 #MINVER#
  (c++)"non-virtual thunk to QQuickControlPrivate::accessibilityActiveChanged(bool)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickControlPrivate::defaultPalette() const@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickControlPrivate::itemDestroyed(QQuickItem*)@Base" 6.2.0
+ (c++)"non-virtual thunk to QQuickControlPrivate::itemFocusChanged(QQuickItem*, Qt::FocusReason)@Base" 6.2.4
  (c++)"non-virtual thunk to QQuickControlPrivate::itemGeometryChanged(QQuickItem*, QQuickGeometryChange, QRectF const&)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickControlPrivate::itemImplicitHeightChanged(QQuickItem*)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickControlPrivate::itemImplicitWidthChanged(QQuickItem*)@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickControlPrivate::~QQuickControlPrivate()@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickDial::componentComplete()@Base" 6.2.0
+ (c++)"non-virtual thunk to QQuickDialog::~QQuickDialog()@Base" 6.2.4
  (c++)"non-virtual thunk to QQuickDialogButtonBox::componentComplete()@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickDialogButtonBox::~QQuickDialogButtonBox()@Base" 6.2.0
  (c++)"non-virtual thunk to QQuickDialogButtonBoxPrivate::itemImplicitHeightChanged(QQuickItem*)@Base" 6.2.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64 mips64el
+# SymbolsHelper-Confirmed: 6.2.4 amd64
 libQt6Qml.so.6 libqt6qml6 #MINVER#
 | libqt6qml6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -452,6 +452,7 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN14QQmlTypeLoaderC2EP10QQmlEngine@Base 6.2.0
  _ZN14QQmlTypeLoaderD1Ev@Base 6.2.0
  _ZN14QQmlTypeLoaderD2Ev@Base 6.2.0
+ _ZN14QQmlTypeModule8findTypeEPK5QListIP15QQmlTypePrivateE13QTypeRevision@Base 6.2.4
  _ZN15QJSManagedValue11setPropertyERK7QStringRK8QJSValue@Base 6.2.0
  _ZN15QJSManagedValue11setPropertyEjRK8QJSValue@Base 6.2.0
  _ZN15QJSManagedValue12setPrototypeERKS_@Base 6.2.0
@@ -1357,8 +1358,6 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN3QV414QObjectWrapper11setPropertyEPNS_15ExecutionEngineEiRKNS_5ValueE@Base 6.2.0
  _ZN3QV414QObjectWrapper11static_vtblE@Base 6.2.0
  _ZN3QV414QObjectWrapper12findPropertyEPNS_15ExecutionEngineEP7QObjectRK14QQmlRefPointerI15QQmlContextDataEPNS_6StringENS0_12RevisionModeEP16QQmlPropertyData@Base 6.2.0
- _ZN3QV414QObjectWrapper12lookupGetterEPNS_6LookupEPNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
- _ZN3QV414QObjectWrapper12lookupSetterEPNS_6LookupEPNS_15ExecutionEngineERNS_5ValueERKS5_@Base 6.2.0
  _ZN3QV414QObjectWrapper13destroyObjectEb@Base 6.2.0
  _ZN3QV414QObjectWrapper13wrap_slowPathEPNS_15ExecutionEngineEP7QObject@Base 6.2.0
  _ZN3QV414QObjectWrapper14getQmlPropertyEPNS_15ExecutionEngineERK14QQmlRefPointerI15QQmlContextDataEP7QObjectPNS_6StringENS0_12RevisionModeEPbPP16QQmlPropertyData@Base 6.2.0
@@ -1726,10 +1725,12 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN3QV46Lookup13getter0InlineEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
  _ZN3QV46Lookup13getterGenericEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
  _ZN3QV46Lookup13getterIndexedEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
+ _ZN3QV46Lookup13getterQObjectEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.4
  _ZN3QV46Lookup13resolveGetterEPNS_15ExecutionEngineEPKNS_6ObjectE@Base 6.2.0
  _ZN3QV46Lookup13resolveSetterEPNS_15ExecutionEngineEPNS_6ObjectERKNS_5ValueE@Base 6.2.0
  _ZN3QV46Lookup13setter0InlineEPS0_PNS_15ExecutionEngineERNS_5ValueERKS4_@Base 6.2.0
  _ZN3QV46Lookup13setterGenericEPS0_PNS_15ExecutionEngineERNS_5ValueERKS4_@Base 6.2.0
+ _ZN3QV46Lookup13setterQObjectEPS0_PNS_15ExecutionEngineERNS_5ValueERKS4_@Base 6.2.4
  _ZN3QV46Lookup14getterAccessorEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
  _ZN3QV46Lookup14getterFallbackEPS0_PNS_15ExecutionEngineERKNS_5ValueE@Base 6.2.0
  _ZN3QV46Lookup14setter0setter0EPS0_PNS_15ExecutionEngineERNS_5ValueERKS4_@Base 6.2.0
@@ -2450,9 +2451,9 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZN8QQmlData17isSignalConnectedEP24QAbstractDeclarativeDataPK7QObjecti@Base 6.2.0
  _ZN8QQmlData19createPropertyCacheEP9QJSEngineP7QObject@Base 6.2.0
  _ZN8QQmlData19disconnectNotifiersEv@Base 6.2.0
+ _ZN8QQmlData19flushPendingBindingEi@Base 6.2.4
  _ZN8QQmlData19releaseDeferredDataEv@Base 6.2.0
  _ZN8QQmlData20setQueuedForDeletionEP7QObject@Base 6.2.0
- _ZN8QQmlData23flushPendingBindingImplE17QQmlPropertyIndex@Base 6.2.0
  _ZN8QQmlData8growBitsEP7QObjecti@Base 6.2.0
  _ZN8QQmlData9addNotifyEiP20QQmlNotifierEndpoint@Base 6.2.0
  _ZN8QQmlData9deferDataEiRK14QQmlRefPointerIN3QV425ExecutableCompilationUnitEERKS0_I15QQmlContextDataE@Base 6.2.0
@@ -2899,10 +2900,6 @@ libQt6Qml.so.6 libqt6qml6 #MINVER#
  _ZNK17QQmlSizeValueType5widthEv@Base 6.2.0
  _ZNK17QQmlSizeValueType6heightEv@Base 6.2.0
  _ZNK17QQmlSizeValueType8toStringEv@Base 6.2.0
- _ZNK17QQmlTypeNameCache5queryEPKN3QV46StringEN10QQmlImport20RecursionRestrictionE@Base 6.2.0
- _ZNK17QQmlTypeNameCache5queryEPKN3QV46StringEPK13QQmlImportRef@Base 6.2.0
- _ZNK17QQmlTypeNameCache5queryERK16QHashedStringRef@Base 6.2.0
- _ZNK17QQmlTypeNameCache5queryERK16QHashedStringRefPK13QQmlImportRef@Base 6.2.0
  _ZNK17QQmlVMEMetaObject11aliasTargetEiPP7QObjectPiS3_@Base 6.2.0
  _ZNK17QQmlVMEMetaObject11vmePropertyEi@Base 6.2.0
  _ZNK17QQmlVMEMetaObject15readVarPropertyEi@Base 6.2.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64 hurd-i386 mips64el
+# SymbolsHelper-Confirmed: 6.2.4 amd64
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -633,7 +633,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrl6QFlagsINS_6OptionEE@Base 6.2.0
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrl@Base 6.2.0
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QRectRK5QSize6QFlagsINS_6OptionEE@Base 6.2.0
- _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QRectRK5QSize6QFlagsINS_6OptionEERK26QQuickImageProviderOptionsii@Base 6.2.0
+ _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QRectRK5QSize6QFlagsINS_6OptionEERK26QQuickImageProviderOptionsiid@Base 6.2.4
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QRectRK5QSize@Base 6.2.0
  _ZN12QQuickPixmap5clearEP7QObject@Base 6.2.0
  _ZN12QQuickPixmap5clearEv@Base 6.2.0
@@ -2475,6 +2475,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN16QSGTransformNodeD0Ev@Base 6.2.0
  _ZN16QSGTransformNodeD1Ev@Base 6.2.0
  _ZN16QSGTransformNodeD2Ev@Base 6.2.0
+ _ZN17QQuickAnimatorJob10boundValueEv@Base 6.2.4
  _ZN17QQuickAnimatorJob10initializeEP24QQuickAnimatorController@Base 6.2.0
  _ZN17QQuickAnimatorJob9setTargetEP10QQuickItem@Base 6.2.0
  _ZN17QQuickAnimatorJobC1Ev@Base 6.2.0
@@ -3235,7 +3236,9 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN19QQuickRenderControl6renderEv@Base 6.2.0
  _ZN19QQuickRenderControl8endFrameEv@Base 6.2.0
  _ZN19QQuickRenderControlC1EP7QObject@Base 6.2.0
+ _ZN19QQuickRenderControlC1ER26QQuickRenderControlPrivateP7QObject@Base 6.2.4
  _ZN19QQuickRenderControlC2EP7QObject@Base 6.2.0
+ _ZN19QQuickRenderControlC2ER26QQuickRenderControlPrivateP7QObject@Base 6.2.4
  _ZN19QQuickRenderControlD0Ev@Base 6.2.0
  _ZN19QQuickRenderControlD1Ev@Base 6.2.0
  _ZN19QQuickRenderControlD2Ev@Base 6.2.0
@@ -3928,7 +3931,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN22QQuickFlickablePrivate17addPointerHandlerEP20QQuickPointerHandler@Base 6.2.0
  _ZN22QQuickFlickablePrivate17cancelInteractionEv@Base 6.2.0
  _ZN22QQuickFlickablePrivate17clearDelayedPressEv@Base 6.2.0
- _ZN22QQuickFlickablePrivate17viewportAxisMovedERNS_8AxisDataEdddPFvPvE@Base 6.2.0
+ _ZN22QQuickFlickablePrivate17viewportAxisMovedERNS_8AxisDataEddPFvPvE@Base 6.2.4
  _ZN22QQuickFlickablePrivate18handleReleaseEventEP13QPointerEvent@Base 6.2.0
  _ZN22QQuickFlickablePrivate18replayDelayedPressEv@Base 6.2.0
  _ZN22QQuickFlickablePrivate18updateBeginningEndEv@Base 6.2.0
@@ -4087,6 +4090,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN22QQuickTableViewPrivate20updateTableRecursiveEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate21_q_componentFinalizedEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate21layoutChangedCallbackERK5QListI21QPersistentModelIndexEN18QAbstractItemModel16LayoutChangeHintE@Base 6.2.0
+ _ZN22QQuickTableViewPrivate22cancelOvershootTopLeftEv@Base 6.2.4
  _ZN22QQuickTableViewPrivate22columnsRemovedCallbackERK11QModelIndexii@Base 6.2.0
  _ZN22QQuickTableViewPrivate22moveToNextRebuildStateEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate22syncWithPendingChangesEv@Base 6.2.0
@@ -4096,6 +4100,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN22QQuickTableViewPrivate24updateAverageColumnWidthEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate25checkForVisibilityChangesEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate25loadAndUnloadVisibleEdgesEv@Base 6.2.0
+ _ZN22QQuickTableViewPrivate26cancelOvershootBottomRightEv@Base 6.2.4
  _ZN22QQuickTableViewPrivate26scheduleRebuildIfFastFlickEv@Base 6.2.0
  _ZN22QQuickTableViewPrivate27scrollTowardsSelectionPointERK7QPointFRK6QSizeF@Base 6.2.0
  _ZN22QQuickTableViewPrivate30drainReusePoolAfterLoadRequestEv@Base 6.2.0
@@ -4409,6 +4414,9 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN23QSGDefaultRenderContext18renderNextRhiFrameEP11QSGRenderer@Base 6.2.0
  _ZN23QSGDefaultRenderContext19initializeRhiShaderEP17QSGMaterialShaderN7QShader7VariantE@Base 6.2.0
  _ZN23QSGDefaultRenderContext23distanceFieldGlyphCacheERK8QRawFonti@Base 6.2.0
+ _ZN23QSGDefaultRenderContext25glyphCacheResourceUpdatesEv@Base 6.2.4
+ _ZN23QSGDefaultRenderContext30maybeGlyphCacheResourceUpdatesEv@Base 6.2.4
+ _ZN23QSGDefaultRenderContext32releaseGlyphCacheResourceUpdatesEv@Base 6.2.4
  _ZN23QSGDefaultRenderContext7fontKeyERK8QRawFonti@Base 6.2.0
  _ZN23QSGDefaultRenderContextC1EP10QSGContext@Base 6.2.0
  _ZN23QSGDefaultRenderContextC2EP10QSGContext@Base 6.2.0
@@ -4687,7 +4695,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN26QQuickDeliveryAgentPrivate15deliverKeyEventEP9QKeyEvent@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate15setFocusInScopeEP10QQuickItemS1_N2Qt11FocusReasonE6QFlagsINS_11FocusOptionEE@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate16clearFocusObjectEv@Base 6.2.0
- (subst)_ZN26QQuickDeliveryAgentPrivate16deliverDragEventEP17QQuickDragGrabberP10QQuickItemP14QDragMoveEventP15QVarLengthArrayIS3_L{qptrdiff}64EE@Base 6.2.0
+ _ZN26QQuickDeliveryAgentPrivate16deliverDragEventEP17QQuickDragGrabberP10QQuickItemP14QDragMoveEventP15QVarLengthArrayIS3_Lx64EEP7QObject@Base 6.2.4
  _ZN26QQuickDeliveryAgentPrivate16deliverDragEventEP17QQuickDragGrabberP6QEvent@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate16handleMouseEventEP11QMouseEvent@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate16handleTouchEventEP11QTouchEvent@Base 6.2.0
@@ -4712,7 +4720,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN26QQuickDeliveryAgentPrivate22sendFilteredMouseEventEP6QEventP10QQuickItemS3_@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate23deliverHoverEventToItemEP10QQuickItemRK7QPointFS4_6QFlagsIN2Qt16KeyboardModifierEEmb@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate23deliverTouchCancelEventEP11QTouchEvent@Base 6.2.0
- _ZN26QQuickDeliveryAgentPrivate23notifyFocusChangesRecurEPP10QQuickItemi@Base 6.2.0
+ _ZN26QQuickDeliveryAgentPrivate23notifyFocusChangesRecurEPP10QQuickItemiN2Qt11FocusReasonE@Base 6.2.4
  _ZN26QQuickDeliveryAgentPrivate24allUpdatedPointsAcceptedEPK13QPointerEvent@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate24deliverDelayedTouchEventEv@Base 6.2.0
  _ZN26QQuickDeliveryAgentPrivate24deliverToPassiveGrabbersERK5QListI8QPointerI7QObjectEEP13QPointerEvent@Base 6.2.0
@@ -4742,6 +4750,16 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN26QQuickDesignerSupportItems17disableTransitionEP7QObject@Base 6.2.0
  _ZN26QQuickDesignerSupportItems26disableNativeTextRenderingEP10QQuickItem@Base 6.2.0
  _ZN26QQuickDesignerSupportItems41registerFixResourcePathsForObjectCallBackEPFvP7QObjectE@Base 6.2.0
+ _ZN26QQuickFlickableVisibleArea11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea11qt_metacastEPKc@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea13updateVisibleEv@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea16staticMetaObjectE@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea16xPositionChangedEd@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea16yPositionChangedEd@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea17widthRatioChangedEd@Base 6.2.4
+ _ZN26QQuickFlickableVisibleArea18heightRatioChangedEd@Base 6.2.4
+ _ZN26QQuickFlickableVisibleAreaC1EP15QQuickFlickable@Base 6.2.4
+ _ZN26QQuickFlickableVisibleAreaC2EP15QQuickFlickable@Base 6.2.4
  _ZN26QQuickImageProviderOptions16setAutoTransformENS_13AutoTransformE@Base 6.2.0
  _ZN26QQuickImageProviderOptions19setTargetColorSpaceERK11QColorSpace@Base 6.2.0
  _ZN26QQuickImageProviderOptions25setPreserveAspectRatioFitEb@Base 6.2.0
@@ -4795,6 +4813,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN26QQuickPointerDeviceHandlerC2ER33QQuickPointerDeviceHandlerPrivateP10QQuickItem@Base 6.2.0
  _ZN26QQuickRenderControlPrivate11maybeUpdateEv@Base 6.2.0
  _ZN26QQuickRenderControlPrivate15windowDestroyedEv@Base 6.2.0
+ _ZN26QQuickRenderControlPrivate17isRenderWindowForEP12QQuickWindowPK7QWindow@Base 6.2.4
  _ZN26QQuickRenderControlPrivate2sgE@Base 6.2.0
  _ZN26QQuickRenderControlPrivate4grabEv@Base 6.2.0
  _ZN26QQuickRenderControlPrivate6updateEv@Base 6.2.0
@@ -4939,8 +4958,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN29QSGRhiDistanceFieldGlyphCache15referenceGlyphsERK4QSetIjE@Base 6.2.0
  _ZN29QSGRhiDistanceFieldGlyphCache21commitResourceUpdatesEP23QRhiResourceUpdateBatch@Base 6.2.0
  _ZN29QSGRhiDistanceFieldGlyphCache21loadPregeneratedCacheERK8QRawFont@Base 6.2.0
- _ZN29QSGRhiDistanceFieldGlyphCacheC1EP4QRhiRK8QRawFonti@Base 6.2.0
- _ZN29QSGRhiDistanceFieldGlyphCacheC2EP4QRhiRK8QRawFonti@Base 6.2.0
+ _ZN29QSGRhiDistanceFieldGlyphCacheC1EP23QSGDefaultRenderContextRK8QRawFonti@Base 6.2.4
+ _ZN29QSGRhiDistanceFieldGlyphCacheC2EP23QSGDefaultRenderContextRK8QRawFonti@Base 6.2.4
  _ZN29QSGRhiDistanceFieldGlyphCacheD0Ev@Base 6.2.0
  _ZN29QSGRhiDistanceFieldGlyphCacheD1Ev@Base 6.2.0
  _ZN29QSGRhiDistanceFieldGlyphCacheD2Ev@Base 6.2.0
@@ -4956,7 +4975,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN30QQuickImageProviderWithOptions14requestTextureERK7QStringP5QSizeRKS3_RK26QQuickImageProviderOptions@Base 6.2.0
  _ZN30QQuickImageProviderWithOptions20requestImageResponseERK7QStringRK5QSize@Base 6.2.0
  _ZN30QQuickImageProviderWithOptions20requestImageResponseERK7QStringRK5QSizeRK26QQuickImageProviderOptions@Base 6.2.0
- _ZN30QQuickImageProviderWithOptions8loadSizeERK5QSizeS2_RK10QByteArrayRK26QQuickImageProviderOptions@Base 6.2.0
+ _ZN30QQuickImageProviderWithOptions8loadSizeERK5QSizeS2_RK10QByteArrayRK26QQuickImageProviderOptionsd@Base 6.2.4
  _ZN30QQuickImageProviderWithOptionsC1EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE@Base 6.2.0
  _ZN30QQuickImageProviderWithOptionsC2EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE@Base 6.2.0
  _ZN30QQuickMultiPointHandlerPrivateC1Eii@Base 6.2.0
@@ -6616,6 +6635,11 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZNK26QQuickDeliveryAgentPrivate14pointerTargetsEP10QQuickItemPK13QPointerEventRK11QEventPointbb@Base 6.2.0
  _ZNK26QQuickDeliveryAgentPrivate15eventInDeliveryEv@Base 6.2.0
  _ZNK26QQuickDeliveryAgentPrivate19mergePointerTargetsERK5QListIP10QQuickItemES5_@Base 6.2.0
+ _ZNK26QQuickFlickableVisibleArea10metaObjectEv@Base 6.2.4
+ _ZNK26QQuickFlickableVisibleArea10widthRatioEv@Base 6.2.4
+ _ZNK26QQuickFlickableVisibleArea11heightRatioEv@Base 6.2.4
+ _ZNK26QQuickFlickableVisibleArea9xPositionEv@Base 6.2.4
+ _ZNK26QQuickFlickableVisibleArea9yPositionEv@Base 6.2.4
  _ZNK26QQuickImageProviderOptions13autoTransformEv@Base 6.2.0
  _ZNK26QQuickImageProviderOptions16targetColorSpaceEv@Base 6.2.0
  _ZNK26QQuickImageProviderOptions22preserveAspectRatioFitEv@Base 6.2.0
@@ -6827,7 +6851,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI17QSGPainterTexture@Base 6.2.0
  _ZTI17QSGSimpleRectNode@Base 6.2.0
  _ZTI17QSGTexturePrivate@Base 6.2.0
- _ZTI18QMutableTouchEvent@Base 6.2.0
  _ZTI18QQuickDragAttached@Base 6.2.0
  _ZTI18QQuickGradientStop@Base 6.2.0
  _ZTI18QQuickHoverHandler@Base 6.2.0
@@ -6926,7 +6949,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI23QQuickVector3dAnimation@Base 6.2.0
  _ZTI23QSGDefaultNinePatchNode@Base 6.2.0
  _ZTI23QSGDefaultRenderContext@Base 6.2.0
- _ZTI24QMutableSinglePointEvent@Base 6.2.0
  _ZTI24QQuickAccessibleAttached@Base 6.2.0
  _ZTI24QQuickAsyncImageProvider@Base 6.2.0
  _ZTI24QQuickOpacityAnimatorJob@Base 6.2.0
@@ -6947,6 +6969,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI25QQuickWheelHandlerPrivate@Base 6.2.0
  _ZTI25QSGBasicInternalImageNode@Base 6.2.0
  _ZTI26QQuickDeliveryAgentPrivate@Base 6.2.0
+ _ZTI26QQuickFlickableVisibleArea@Base 6.2.4
  _ZTI26QQuickImageTextureProvider@Base 6.2.0
  _ZTI26QQuickItemViewTransitioner@Base 6.2.0
  _ZTI26QQuickPointerDeviceHandler@Base 6.2.0
@@ -7137,7 +7160,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS17QSGPainterTexture@Base 6.2.0
  _ZTS17QSGSimpleRectNode@Base 6.2.0
  _ZTS17QSGTexturePrivate@Base 6.2.0
- _ZTS18QMutableTouchEvent@Base 6.2.0
  _ZTS18QQuickDragAttached@Base 6.2.0
  _ZTS18QQuickGradientStop@Base 6.2.0
  _ZTS18QQuickHoverHandler@Base 6.2.0
@@ -7236,7 +7258,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS23QQuickVector3dAnimation@Base 6.2.0
  _ZTS23QSGDefaultNinePatchNode@Base 6.2.0
  _ZTS23QSGDefaultRenderContext@Base 6.2.0
- _ZTS24QMutableSinglePointEvent@Base 6.2.0
  _ZTS24QQuickAccessibleAttached@Base 6.2.0
  _ZTS24QQuickAsyncImageProvider@Base 6.2.0
  _ZTS24QQuickOpacityAnimatorJob@Base 6.2.0
@@ -7257,6 +7278,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS25QQuickWheelHandlerPrivate@Base 6.2.0
  _ZTS25QSGBasicInternalImageNode@Base 6.2.0
  _ZTS26QQuickDeliveryAgentPrivate@Base 6.2.0
+ _ZTS26QQuickFlickableVisibleArea@Base 6.2.4
  _ZTS26QQuickImageTextureProvider@Base 6.2.0
  _ZTS26QQuickItemViewTransitioner@Base 6.2.0
  _ZTS26QQuickPointerDeviceHandler@Base 6.2.0
@@ -7440,7 +7462,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV17QSGPainterTexture@Base 6.2.0
  _ZTV17QSGSimpleRectNode@Base 6.2.0
  _ZTV17QSGTexturePrivate@Base 6.2.0
- _ZTV18QMutableTouchEvent@Base 6.2.0
  _ZTV18QQuickDragAttached@Base 6.2.0
  _ZTV18QQuickGradientStop@Base 6.2.0
  _ZTV18QQuickHoverHandler@Base 6.2.0
@@ -7538,7 +7559,6 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV23QQuickVector3dAnimation@Base 6.2.0
  _ZTV23QSGDefaultNinePatchNode@Base 6.2.0
  _ZTV23QSGDefaultRenderContext@Base 6.2.0
- _ZTV24QMutableSinglePointEvent@Base 6.2.0
  _ZTV24QQuickAccessibleAttached@Base 6.2.0
  _ZTV24QQuickAsyncImageProvider@Base 6.2.0
  _ZTV24QQuickOpacityAnimatorJob@Base 6.2.0
@@ -7558,6 +7578,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV25QQuickWheelHandlerPrivate@Base 6.2.0
  _ZTV25QSGBasicInternalImageNode@Base 6.2.0
  _ZTV26QQuickDeliveryAgentPrivate@Base 6.2.0
+ _ZTV26QQuickFlickableVisibleArea@Base 6.2.4
  _ZTV26QQuickImageTextureProvider@Base 6.2.0
  _ZTV26QQuickItemViewTransitioner@Base 6.2.0
  _ZTV26QQuickPointerDeviceHandler@Base 6.2.0
