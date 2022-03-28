@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 mips64el
+# SymbolsHelper-Confirmed: 6.2.4 mips64el riscv64
 libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
 | libqt6qmlmodels6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -322,7 +322,6 @@ libQt6QmlModels.so.6 libqt6qmlmodels6 #MINVER#
  _ZNK29QQmlAbstractDelegateComponent5valueEP16QQmlAdaptorModeliiRK7QString@Base 6.2.0
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERK5QListI7QStringE@Base 6.2.0
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERKN3QV45ValueE@Base 6.2.0
- (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4)_ZNK3QV45Value2asINS_14FunctionObjectEEEPKT_v@Base 6.2.0
  _ZTI12QQmlRefCount@Base 6.2.0
  _ZTI13QQmlListModel@Base 6.2.0
  _ZTI13QQuickPackage@Base 6.2.0
