@@ -1,9 +1,9 @@
-qt6-declarative (6.2.4+dfsg-3) UNRELEASED; urgency=medium
+qt6-declarative (6.2.4+dfsg-3) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Update symbols from buildlogs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Apr 2022 07:47:22 +0200
+ -- Patrick Franz <deltaone@debian.org>  Tue, 12 Apr 2022 07:50:51 +0200
 
 qt6-declarative (6.2.4+dfsg-2) experimental; urgency=medium
 
