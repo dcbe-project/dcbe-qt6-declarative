@@ -1,9 +1,9 @@
-qt6-declarative (6.2.4+dfsg-4) UNRELEASED; urgency=medium
+qt6-declarative (6.2.4+dfsg-4) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update symbols files from the logs of buildds.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Apr 2022 14:02:23 +0200
+ -- Pino Toscano <pino@debian.org>  Fri, 15 Apr 2022 14:09:59 +0200
 
 qt6-declarative (6.2.4+dfsg-3) experimental; urgency=medium
 
