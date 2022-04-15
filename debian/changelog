@@ -1,5 +1,7 @@
 qt6-declarative (6.2.4+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Update symbols files from the logs of buildds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Apr 2022 14:02:23 +0200
 
