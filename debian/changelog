@@ -1,4 +1,4 @@
-qt6-declarative (6.2.4+dfsg-5) UNRELEASED; urgency=medium
+qt6-declarative (6.2.4+dfsg-5) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Bump the libqt6shadertools6-dev build dependency to 6.2.4-2, to make sure
@@ -7,7 +7,7 @@ qt6-declarative (6.2.4+dfsg-5) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Apr 2022 10:29:15 +0200
+ -- Patrick Franz <deltaone@debian.org>  Fri, 22 Apr 2022 20:06:35 +0200
 
 qt6-declarative (6.2.4+dfsg-4) experimental; urgency=medium
 
