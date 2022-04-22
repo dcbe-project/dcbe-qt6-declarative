@@ -4,6 +4,9 @@ qt6-declarative (6.2.4+dfsg-5) UNRELEASED; urgency=medium
   * Bump the libqt6shadertools6-dev build dependency to 6.2.4-2, to make sure
     to get the fixes for big endian architectures.
 
+  [ Patrick Franz ]
+  * Upload to unstable.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Apr 2022 10:29:15 +0200
 
 qt6-declarative (6.2.4+dfsg-4) experimental; urgency=medium
