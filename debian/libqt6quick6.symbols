@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.4 amd64 arm64 armel armhf hurd-i386 i386 ia64 mips64el mipsel ppc64el riscv64 sh4 sparc64
+# SymbolsHelper-Confirmed: 6.2.4+dfsg-5.1 armhf
 libQt6Quick.so.6 libqt6quick6 #MINVER#
 | libqt6quick6 #MINVER#, qt6-declarative-abi (= 6.2.4)
 * Build-Depends-Packages: qt6-declarative-dev, qt6-declarative-private-dev
@@ -2133,16 +2133,16 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 6.2.0
  _ZN15QSGPlainTextureD1Ev@Base 6.2.0
  _ZN15QSGPlainTextureD2Ev@Base 6.2.0
- _ZN16QNativeInterface16QSGOpenGLTexture10fromNativeEjP12QQuickWindowRK5QSize6QFlagsINS1_19CreateTextureOptionEE@Base 6.2.0
- _ZN16QNativeInterface16QSGOpenGLTexture21fromNativeExternalOESEjP12QQuickWindowRK5QSize6QFlagsINS1_19CreateTextureOptionEE@Base 6.2.0
- _ZN16QNativeInterface16QSGOpenGLTextureD0Ev@Base 6.2.0
- _ZN16QNativeInterface16QSGOpenGLTextureD1Ev@Base 6.2.0
- _ZN16QNativeInterface16QSGOpenGLTextureD2Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN16QNativeInterface16QSGOpenGLTexture10fromNativeEjP12QQuickWindowRK5QSize6QFlagsINS1_19CreateTextureOptionEE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN16QNativeInterface16QSGOpenGLTexture21fromNativeExternalOESEjP12QQuickWindowRK5QSize6QFlagsINS1_19CreateTextureOptionEE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN16QNativeInterface16QSGOpenGLTextureD0Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN16QNativeInterface16QSGOpenGLTextureD1Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN16QNativeInterface16QSGOpenGLTextureD2Ev@Base 6.2.0
  (arch-bits=64|arch=linux-any)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEP9VkImage_T13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS4_19CreateTextureOptionEE@Base 6.2.0
- (arch-bits=32|arch=linux-any)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
- (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD0Ev@Base 6.2.0
- (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD1Ev@Base 6.2.0
- (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD2Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch-bits=32|arch=linux-any)_ZN16QNativeInterface16QSGVulkanTexture10fromNativeEy13VkImageLayoutP12QQuickWindowRK5QSize6QFlagsINS2_19CreateTextureOptionEE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD0Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD1Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZN16QNativeInterface16QSGVulkanTextureD2Ev@Base 6.2.0
  _ZN16QQuickAnchorLine16staticMetaObjectE@Base 6.2.0
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 6.2.0
@@ -2631,7 +2631,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN17QQuickItemPrivateD0Ev@Base 6.2.0
  _ZN17QQuickItemPrivateD1Ev@Base 6.2.0
  _ZN17QQuickItemPrivateD2Ev@Base 6.2.0
- _ZN17QQuickOpenGLUtils16resetOpenGLStateEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN17QQuickOpenGLUtils16resetOpenGLStateEv@Base 6.2.0
  _ZN17QQuickPaintedItem10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Base 6.2.0
  _ZN17QQuickPaintedItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
  _ZN17QQuickPaintedItem11qt_metacastEPKc@Base 6.2.0
@@ -2971,10 +2971,10 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN18QQuickPointHandlerC1EP10QQuickItem@Base 6.2.0
  _ZN18QQuickPointHandlerC2EP10QQuickItem@Base 6.2.0
  (arch-bits=64|arch=linux-any)_ZN18QQuickRenderTarget15fromVulkanImageEP9VkImage_T13VkImageLayoutRK5QSizei@Base 6.2.0
- (arch-bits=32|arch=linux-any)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
- _ZN18QQuickRenderTarget17fromOpenGLTextureEjRK5QSizei@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch-bits=32|arch=linux-any)_ZN18QQuickRenderTarget15fromVulkanImageEy13VkImageLayoutRK5QSizei@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN18QQuickRenderTarget17fromOpenGLTextureEjRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget19fromRhiRenderTargetEP16QRhiRenderTarget@Base 6.2.0
- _ZN18QQuickRenderTarget22fromOpenGLRenderBufferEjRK5QSizei@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN18QQuickRenderTarget22fromOpenGLRenderBufferEjRK5QSizei@Base 6.2.0
  _ZN18QQuickRenderTarget6detachEv@Base 6.2.0
  _ZN18QQuickRenderTargetC1ERKS_@Base 6.2.0
  _ZN18QQuickRenderTargetC1Ev@Base 6.2.0
@@ -3510,9 +3510,9 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN20QQuickColorValueType6createERK8QJSValue@Base 6.2.0
  _ZN20QQuickColorValueType9setHslHueEd@Base 6.2.0
  _ZN20QQuickColorValueType9setHsvHueEd@Base 6.2.0
- (arch=linux-any)_ZN20QQuickGraphicsDevice17fromDeviceObjectsEP18VkPhysicalDevice_TP10VkDevice_Tii@Base 6.2.0
- _ZN20QQuickGraphicsDevice17fromOpenGLContextEP14QOpenGLContext@Base 6.2.0
- (arch=linux-any)_ZN20QQuickGraphicsDevice18fromPhysicalDeviceEP18VkPhysicalDevice_T@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZN20QQuickGraphicsDevice17fromDeviceObjectsEP18VkPhysicalDevice_TP10VkDevice_Tii@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN20QQuickGraphicsDevice17fromOpenGLContextEP14QOpenGLContext@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZN20QQuickGraphicsDevice18fromPhysicalDeviceEP18VkPhysicalDevice_T@Base 6.2.0
  _ZN20QQuickGraphicsDevice6detachEv@Base 6.2.0
  _ZN20QQuickGraphicsDeviceC1ERKS_@Base 6.2.0
  _ZN20QQuickGraphicsDeviceC1Ev@Base 6.2.0
@@ -4224,28 +4224,28 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZN23QQuickAbstractAnimationD0Ev@Base 6.2.0
  _ZN23QQuickAbstractAnimationD1Ev@Base 6.2.0
  _ZN23QQuickAbstractAnimationD2Ev@Base 6.2.0
- _ZN23QQuickFramebufferObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
- _ZN23QQuickFramebufferObject11qt_metacastEPKc@Base 6.2.0
- _ZN23QQuickFramebufferObject14geometryChangeERK6QRectFS2_@Base 6.2.0
- _ZN23QQuickFramebufferObject15updatePaintNodeEP7QSGNodePN10QQuickItem19UpdatePaintNodeDataE@Base 6.2.0
- _ZN23QQuickFramebufferObject16releaseResourcesEv@Base 6.2.0
- _ZN23QQuickFramebufferObject16staticMetaObjectE@Base 6.2.0
- _ZN23QQuickFramebufferObject19setMirrorVerticallyEb@Base 6.2.0
- _ZN23QQuickFramebufferObject20invalidateSceneGraphEv@Base 6.2.0
- _ZN23QQuickFramebufferObject23mirrorVerticallyChangedEb@Base 6.2.0
- _ZN23QQuickFramebufferObject25setTextureFollowsItemSizeEb@Base 6.2.0
- _ZN23QQuickFramebufferObject29textureFollowsItemSizeChangedEb@Base 6.2.0
- _ZN23QQuickFramebufferObject8Renderer11synchronizeEPS_@Base 6.2.0
- _ZN23QQuickFramebufferObject8Renderer23createFramebufferObjectERK5QSize@Base 6.2.0
- _ZN23QQuickFramebufferObject8Renderer27invalidateFramebufferObjectEv@Base 6.2.0
- _ZN23QQuickFramebufferObject8Renderer6updateEv@Base 6.2.0
- _ZN23QQuickFramebufferObject8RendererC1Ev@Base 6.2.0
- _ZN23QQuickFramebufferObject8RendererC2Ev@Base 6.2.0
- _ZN23QQuickFramebufferObject8RendererD0Ev@Base 6.2.0
- _ZN23QQuickFramebufferObject8RendererD1Ev@Base 6.2.0
- _ZN23QQuickFramebufferObject8RendererD2Ev@Base 6.2.0
- _ZN23QQuickFramebufferObjectC1EP10QQuickItem@Base 6.2.0
- _ZN23QQuickFramebufferObjectC2EP10QQuickItem@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject11qt_metacastEPKc@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject14geometryChangeERK6QRectFS2_@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject15updatePaintNodeEP7QSGNodePN10QQuickItem19UpdatePaintNodeDataE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject16releaseResourcesEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject16staticMetaObjectE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject19setMirrorVerticallyEb@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject20invalidateSceneGraphEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject23mirrorVerticallyChangedEb@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject25setTextureFollowsItemSizeEb@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject29textureFollowsItemSizeChangedEb@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8Renderer11synchronizeEPS_@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8Renderer23createFramebufferObjectERK5QSize@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8Renderer27invalidateFramebufferObjectEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8Renderer6updateEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8RendererC1Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8RendererC2Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8RendererD0Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8RendererD1Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObject8RendererD2Ev@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObjectC1EP10QQuickItem@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZN23QQuickFramebufferObjectC2EP10QQuickItem@Base 6.2.0
  _ZN23QQuickMultiPointHandler10grabPointsEP13QPointerEventRK5QListI11QEventPointE@Base 6.2.0
  _ZN23QQuickMultiPointHandler10moveTargetE7QPointF@Base 6.2.0
  _ZN23QQuickMultiPointHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 6.2.0
@@ -6480,12 +6480,12 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZNK23QQuickAbstractAnimation8durationEv@Base 6.2.0
  _ZNK23QQuickAbstractAnimation8isPausedEv@Base 6.2.0
  _ZNK23QQuickAbstractAnimation9isRunningEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject10metaObjectEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject15textureProviderEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject16mirrorVerticallyEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject17isTextureProviderEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject22textureFollowsItemSizeEv@Base 6.2.0
- _ZNK23QQuickFramebufferObject8Renderer17framebufferObjectEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject10metaObjectEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject15textureProviderEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject16mirrorVerticallyEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject17isTextureProviderEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject22textureFollowsItemSizeEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK23QQuickFramebufferObject8Renderer17framebufferObjectEv@Base 6.2.0
  _ZNK23QQuickMultiPointHandler10metaObjectEv@Base 6.2.0
  _ZNK23QQuickMultiPointHandler17maximumPointCountEv@Base 6.2.0
  _ZNK23QQuickMultiPointHandler17minimumPointCountEv@Base 6.2.0
@@ -6607,9 +6607,9 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZNK24QSGOpaqueTextureMaterial7compareEPK11QSGMaterial@Base 6.2.0
  _ZNK24QSGSmoothTextureMaterial12createShaderEN20QSGRendererInterface10RenderModeE@Base 6.2.0
  _ZNK24QSGSmoothTextureMaterial4typeEv@Base 6.2.0
- _ZNK24QSGTexturePlatformOpenGL13nativeTextureEv@Base 6.2.0
- (arch=linux-any)_ZNK24QSGTexturePlatformVulkan11nativeImageEv@Base 6.2.0
- (arch=linux-any)_ZNK24QSGTexturePlatformVulkan17nativeImageLayoutEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZNK24QSGTexturePlatformOpenGL13nativeTextureEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZNK24QSGTexturePlatformVulkan11nativeImageEv@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZNK24QSGTexturePlatformVulkan17nativeImageLayoutEv@Base 6.2.0
  _ZNK25QQuickAnimationController10metaObjectEv@Base 6.2.0
  _ZNK25QQuickAnimationController8progressEv@Base 6.2.0
  _ZNK25QQuickAnimationController9animationEv@Base 6.2.0
@@ -6937,7 +6937,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI22QSGSmoothColorMaterial@Base 6.2.0
  _ZTI22QSGVertexColorMaterial@Base 6.2.0
  _ZTI23QQuickAbstractAnimation@Base 6.2.0
- _ZTI23QQuickFramebufferObject@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTI23QQuickFramebufferObject@Base 6.2.0
  _ZTI23QQuickMultiPointHandler@Base 6.2.0
  _ZTI23QQuickParallelAnimation@Base 6.2.0
  _ZTI23QQuickPropertyAnimation@Base 6.2.0
@@ -6959,8 +6959,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI24QSGInternalRectangleNode@Base 6.2.0
  _ZTI24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTI24QSGSmoothTextureMaterial@Base 6.2.0
- _ZTI24QSGTexturePlatformOpenGL@Base 6.2.0
- (arch=linux-any)_ZTI24QSGTexturePlatformVulkan@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTI24QSGTexturePlatformOpenGL@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTI24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTI25QQuickAnimationController@Base 6.2.0
  _ZTI25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTI25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -7010,12 +7010,12 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTI9QQuickRow@Base 6.2.0
  _ZTIFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
  _ZTIN13QSGRenderNode11RenderStateE@Base 6.2.0
- _ZTIN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- (arch=linux-any)_ZTIN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTIN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTIN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTIN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTIN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTIN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
- _ZTIN23QQuickFramebufferObject8RendererE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTIN23QQuickFramebufferObject8RendererE@Base 6.2.0
  _ZTIN3QV415ExecutionEngine9DeletableE@Base 6.2.0
  (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTIPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
@@ -7246,7 +7246,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS22QSGSmoothColorMaterial@Base 6.2.0
  _ZTS22QSGVertexColorMaterial@Base 6.2.0
  _ZTS23QQuickAbstractAnimation@Base 6.2.0
- _ZTS23QQuickFramebufferObject@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTS23QQuickFramebufferObject@Base 6.2.0
  _ZTS23QQuickMultiPointHandler@Base 6.2.0
  _ZTS23QQuickParallelAnimation@Base 6.2.0
  _ZTS23QQuickPropertyAnimation@Base 6.2.0
@@ -7268,8 +7268,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS24QSGInternalRectangleNode@Base 6.2.0
  _ZTS24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTS24QSGSmoothTextureMaterial@Base 6.2.0
- _ZTS24QSGTexturePlatformOpenGL@Base 6.2.0
- (arch=linux-any)_ZTS24QSGTexturePlatformVulkan@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTS24QSGTexturePlatformOpenGL@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTS24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTS25QQuickAnimationController@Base 6.2.0
  _ZTS25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTS25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -7319,12 +7319,12 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTS9QQuickRow@Base 6.2.0
  _ZTSFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
  _ZTSN13QSGRenderNode11RenderStateE@Base 6.2.0
- _ZTSN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- (arch=linux-any)_ZTSN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTSN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTSN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTSN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTSN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTSN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
- _ZTSN23QQuickFramebufferObject8RendererE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTSN23QQuickFramebufferObject8RendererE@Base 6.2.0
  _ZTSN3QV415ExecutionEngine9DeletableE@Base 6.2.0
  (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 6.2.0
  _ZTSPFP7QObjectP10QQmlEngineP9QJSEngineE@Base 6.2.0
@@ -7547,7 +7547,7 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV22QSGSmoothColorMaterial@Base 6.2.0
  _ZTV22QSGVertexColorMaterial@Base 6.2.0
  _ZTV23QQuickAbstractAnimation@Base 6.2.0
- _ZTV23QQuickFramebufferObject@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTV23QQuickFramebufferObject@Base 6.2.0
  _ZTV23QQuickMultiPointHandler@Base 6.2.0
  _ZTV23QQuickParallelAnimation@Base 6.2.0
  _ZTV23QQuickPropertyAnimation@Base 6.2.0
@@ -7568,8 +7568,8 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV24QQuickUniformAnimatorJob@Base 6.2.0
  _ZTV24QSGOpaqueTextureMaterial@Base 6.2.0
  _ZTV24QSGSmoothTextureMaterial@Base 6.2.0
- _ZTV24QSGTexturePlatformOpenGL@Base 6.2.0
- (arch=linux-any)_ZTV24QSGTexturePlatformVulkan@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTV24QSGTexturePlatformOpenGL@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTV24QSGTexturePlatformVulkan@Base 6.2.0
  _ZTV25QQuickAnimationController@Base 6.2.0
  _ZTV25QQuickMultiPointTouchArea@Base 6.2.0
  _ZTV25QQuickPathCatmullRomCurve@Base 6.2.0
@@ -7616,12 +7616,12 @@ libQt6Quick.so.6 libqt6quick6 #MINVER#
  _ZTV9QQuickPen@Base 6.2.0
  _ZTV9QQuickRow@Base 6.2.0
  _ZTVN13QSGRenderNode11RenderStateE@Base 6.2.0
- _ZTVN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
- (arch=linux-any)_ZTVN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTVN16QNativeInterface16QSGOpenGLTextureE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# (arch=linux-any)_ZTVN16QNativeInterface16QSGVulkanTextureE@Base 6.2.0
  _ZTVN16QSGBatchRenderer8RendererE@Base 6.2.0
  _ZTVN19QQuickDeliveryAgent9TransformE@Base 6.2.0
  _ZTVN22QQuickFlickablePrivate8VelocityE@Base 6.2.0
- _ZTVN23QQuickFramebufferObject8RendererE@Base 6.2.0
+#MISSING: 6.2.4+dfsg-5.1# _ZTVN23QQuickFramebufferObject8RendererE@Base 6.2.0
  (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 6.2.0
  (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI26QQuickPaletteColorProviderSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 6.2.0
